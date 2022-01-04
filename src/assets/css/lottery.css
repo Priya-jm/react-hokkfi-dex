@@ -1,0 +1,1252 @@
+body .container{
+  padding-left: 8px;
+  padding-right: 8px;
+} 
+body .row {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.row > div{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.poppinsFont ,
+.poppinsFont h1,
+.poppinsFont h2,
+.poppinsFont h3,
+.poppinsFont h4,
+.poppinsFont h5,
+.poppinsFont h6,
+.poppinsFont p,
+.poppinsFont span{
+  font-family: poppins;
+  color: #fff;
+}
+.padSec{
+  padding: 60px 0;
+}
+.wd100{
+  width: 100%;
+}
+.topSec h3{
+  font-size: 35px;
+  line-height: 52.5px;
+  font-family: poppinssemibold;
+}
+.borderLine {
+  border-radius: 15px;
+    border: 1px solid #4C6FFF;
+    padding: 15px;
+    box-shadow: 0 5px 10px rgb(76 111 255 / 40%);
+    position: relative;
+}
+ .NexDraw {
+    padding: 30px;
+    border-radius: 15px;
+    background: #11121D;
+    position: relative;
+     font-family: 'Poppins', sans-serif;
+     z-index: 5;
+}
+.headTitle {
+    background: #0B0B0F;
+    margin: -30px -30px 40px;
+    border-radius: 15px;
+    padding: 15px 20px;
+}
+.headTitle a.carousel-control-next ,
+.headTitle .carousel-control-prev {
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  opacity: 1;
+  border-radius: 100%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.headTitle .carousel-control-prev{
+  right: 50px;
+  left: auto;
+}
+.headTitle .carousel-indicators {
+  display: none;
+}
+.headTitle p:last-child{
+  margin-bottom: 0;
+} 
+.headTitle a.carousel-control-next .carousel-control-next-icon,
+.headTitle .carousel-control-prev .carousel-control-prev-icon{
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  width: auto;
+  height: auto;
+}
+
+.headTitle a.carousel-control-next .carousel-control-next-icon{
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.headTitle .carousel-control-prev .carousel-control-prev-icon{
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+body .headTitle h3 {
+    font-size: 25px;
+    font-weight: normal;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    color: #fff;
+}
+.headTitle h3 span{
+  font-size: 21px;
+}
+.radiusBx {
+    padding: 30px 20px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.NexDraw .cntntWrp > h4 {
+  font-size: 25px;
+}
+.NexDraw span.display4 {
+  font-size: 21px;
+}
+.decoArrow .radiusBx.bglightBlue{
+  background: #27253C;
+}
+
+.tabBox {
+    border-radius: 15px;
+    padding: 20px 15px;
+    margin: 10px 0;
+}
+body .titlesm h3 {
+    text-align: left;
+    font-size: 21px;
+    margin-left: 10px;
+    font-family: 'poppinssemibold';
+    color: #fff;
+}
+body .titlesm h3 small,
+body .smText{
+  font-size: 70%;
+  display: block;
+  color: #92929D;
+}
+body .titlesm h3 small{
+  font-family: poppins;
+  margin-top: 5px;
+}
+.finshRound .titlesm h3{
+  font-size: 18px;
+}
+.finshRound .titlesm h3 small{
+  font-size: 22px;
+}
+.tabBox.bgBlack{
+  background: #1C1C24;
+}
+.tabBox .priceSm{
+  font-family: 'poppinssemibold';
+}
+body .smText{
+  font-size: 13px;
+}
+body small + .priceSm{
+  font-weight: lighter;
+  margin-top: 5px;
+  display: block;
+  font-size: 14px;
+    font-family: poppins !important;
+    line-height: 21px;
+}
+.priceSm{
+  font-weight: normal;
+  font-size: 15px;
+  color: #A8B9FF !important;
+}
+.tabBox {
+    flex-direction: row;
+}
+.titlesm img {
+    max-height: 35px;
+}
+.HideRow{
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+.HideRow:after{
+  content: "";
+  vertical-align: middle;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;  
+  border-bottom: 5px solid #fff;
+  display: inline-block;
+  margin-left: 5px;
+}
+.active_tab + .textCenter  .HideRow:after{
+  border-bottom: 0;
+  border-top: 5px solid #fff;
+}
+.radiusBx h4 {
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.gradText {
+    background-image: linear-gradient(to right  , #cc1cc3  , #9f37c9  , #2555FF);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+h1.gradText{
+  font-size: 75px;
+  font-family: poppinssemibold;
+}
+.topSec h1.gradText {
+    line-height: 95.63px;
+}
+.connectWalet h3.gradText{
+  font-size: 35px;
+  line-height: 44.27px;
+  margin-bottom: 15px;
+  font-family: poppinssemibold;
+}
+.topSec{
+  position: relative;
+}
+.topSec:before , .topSec:after , .finshRound > .container .NexDraw:before{
+  content: "";
+  width: 33px;
+  height: 33px;
+  background: #9039FF;
+  border-radius: 100%;
+  position: absolute;
+  right: -106px;
+  bottom: -109px;
+  z-index: 0;
+}
+.finshRound > .container .NexDraw:before{
+  bottom: 35%;
+  right: -83px;
+}
+.topSec:before{
+  width: 16.95px;
+  height: 16.95px;
+  right: -40px;
+  bottom: 0;
+}
+.topSec h3{
+  margin: 0;
+  line-height: 1;
+  margin: 10px 0;
+}
+.topSec a{
+  max-width: 200px;
+  margin-top: 40px;
+  display: inline-block;
+}
+
+
+.mt-l-10{
+  margin-left: 10px;
+}
+h2.gradText {
+    font-size: 45px;
+    margin: 10px 0 20px;
+    line-height: 1.1;
+    font-family: poppinssemibold;
+}
+.mg15_0{
+  margin: 15px 0;
+}
+.smBtn {
+  font-size: 14px;
+}
+.nmberIn {
+    padding: 5px;
+}
+.nmberIn img {
+    width: 70px;
+    object-fit: contain;
+}
+.flexBx{
+  display: flex;
+  flex-wrap: wrap;
+}
+.gridSm.row{
+  padding: 0 -8px;
+}
+.gridSm.row > div{
+  padding: 0 8px;
+}
+.slideCnt .carousel-item > p{
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+}
+.font25 {
+  font-size: 25px;
+}
+.ticketNmberWrap .row.d-flex.gradBg {
+  flex-wrap: unset;
+}
+.ticketNmberWrap .row.d-flex.gradBg > .col {
+  padding: 0;
+  text-align: center;
+}
+
+.hgltBg {
+    background: #4C6FFF;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-size: 25px;
+    margin-left: 10px;
+    font-family: poppinssemibold;
+  }
+  .slideCnt .hgltBg{
+    font-family: poppinssemibold;
+  }
+.playBx {
+    padding: 40px 25px;
+    border-radius: 17px;
+    height: 100%;
+}
+.iconCr{
+  background: url('../images/lottery/lineImg.png') no-repeat center center;
+  background-size: 100% auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 15px;
+}
+.iconCr img{
+  max-height: 40px;
+}
+.playBx h3{
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'Poppins Bold', sans-serif;
+}
+.playBx p{
+  color: #B8B8B8;
+  margin: 0;
+  font-weight: normal;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.lottrySec{
+  background-image: url('../images/lottery/Specular.png') , url('../images/lottery/halfStart.png');
+  background-position: right top , right 80%;
+  background-repeat: no-repeat;
+  background-size: 120px auto , 60px auto;
+}
+.section1Lotry {
+    background-image:  url('../images/lottery/lottry_frombg.png') , 
+    url('../images/lottery/top-bg.png') , url('../images/lottery/starBg.png') , url('../images/lottery/ticketBgside.png'),
+    url('../images/lottery/rightIconLottryTop.png') , url('../images/lottery/rightIconLottry.png');
+    background-position: center center , 22% top , 15% 40%  , 22% 75% , 80% 30% , 90% 75%;
+    background-repeat: no-repeat , no-repeat , no-repeat , no-repeat , no-repeat , no-repeat;
+    background-size: 1000px auto , 150px auto , 99px auto , 87px auto , 61px auto , 113px auto;
+}
+.iconCOin {
+    position: absolute;
+    bottom: -19px;
+    left: -38px;
+    z-index: 55;
+    width: 90px;
+}
+.poppinsFont h3{
+  font-size: 22px;
+  font-family: poppinssemibold;
+}
+h4{
+  font-size: 19px;
+  font-weight: normal;
+}
+.skyBleClr {
+    color: #A881FC !important;    
+}
+.textCritera{
+  line-height: 1.4;
+}
+.textCritera h3{
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.textCritera p {
+  font-size: 19px;
+  line-height: 1.6;
+  margin-bottom: 5px;
+}
+
+.graphDtlList{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.graphDtlList > li{
+  position: relative;
+  padding-left: 30px;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 15px;
+    width: 46%;
+    line-height: 1.2;
+}
+
+.radiusBox , .chartBx{
+  background-color: #121626;
+}
+.graphDtlList > li:nth-child(2n){
+  margin-left: auto;
+}
+.graphDtlList > li:last-child{
+  margin-bottom: 0;
+}
+.graphDtlList li:before{
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: #fff;
+  content: "";
+}
+.blueCrle:before{
+  background-color: #333FFF !important;
+}
+.liteskyblCrle:before{
+  background-color: #B8FFF2 !important;
+}
+.darkskyblCrle:before{
+  background-color: #58CFFF !important;
+}
+.pinkCrle:before{
+  background-color: #FFB0E3 !important;  
+}
+.bCrle:before{
+  background-color: #29304D !important;  
+}
+.greenCrle:before{
+  background-color: #23b899 !important;
+}
+.tanCrle:before{
+  background-color: #FFDCB0 !important;  
+}
+.ltYwlCrle:before{
+  background-color: #B8B723 !important;  
+}
+
+.chartBx {
+    padding: 0 25px 20px;
+    height: 100%;
+}
+.chartBx * {
+  font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.headTop {
+    padding: 15px 20px;
+    border-bottom: 1px solid #29304D;
+    margin: 0 -25px 0;
+}
+.circleBx {
+    position: relative;
+}
+.circleBx span {
+  position: relative;
+  display: inline-block;
+}
+.circleBx i {
+  font-style: normal;
+  display: inline-block;
+  padding: 10px 16px;
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  white-space: nowrap;
+  left: -30px;
+  top: 20px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+.circleBx i:before{
+  width: 0; 
+  height: 0; 
+  border-top: 4px solid transparent;
+  border-bottom: 5px solid transparent;   
+  border-left:7px solid rgba(0,0,0,0.5);
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "";
+}
+.prizeFnds{
+  background: #0B0B11;
+  position: relative;
+}
+.prizeFnds:before{
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: -90px;
+  background: url('../images/lottery/fundIcon.png') no-repeat center center;
+  background-size: 150px auto;
+  width: 150px;
+  height: 165px;
+}
+.radiusBox {
+    padding: 30px;
+    min-height: calc(100% / 3 - 0.4rem);
+}
+
+/*footer*/
+.footer{
+  padding: 350px 0 10px;
+  background-color: #161b22;
+  background-image: url('../images/lottery/footer-path-svg.svg');
+  background-repeat: no-repeat;
+  background-position: left -20px;
+  background-size: 100% auto;
+  color: rgba(255,255,255,0.7);
+}
+.footer .container ,
+.footer .container > .row > div{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.footer .container > .row{
+  margin-left: -15px;
+  margin-left: -15px;
+}
+.footer span , .footer p{
+  color: rgba(255,255,255,0.7);
+}
+.footer.poppinsFont .text-md-left.col-lg-4 img {
+  margin-bottom: 15px !important;
+}
+body .footer h4.mb-4 {
+  margin-bottom: 41px !important;
+}
+.footer.poppinsFont .text-md-left.col-lg-4 {
+  font-size: 14px;
+  line-height: 27px;
+}
+.linkList {
+    list-style: none;
+}
+.linkList li:not(:last-child) {
+    display: block;
+    margin-bottom: 10px;
+}
+.linkList li a{
+  color: rgba(255,255,255,0.8);
+  transition: all 500ms ease-in-out;
+}
+.linkList li a:hover{
+   color: #fff;
+   text-decoration: none;
+}
+.lessPad{
+  margin: 0 -5px;
+}
+.lessPad > div{
+  padding: 5px;
+}
+.socailLinks{
+  list-style: none;
+}
+.socailLinks li:not(:last-child){
+  margin-right: 20px;
+}
+.socailLinks li a{
+  display: block;
+  color: #fff;
+  font-size: 25px;
+  text-decoration: none;
+  transition: all 500ms ease-in-out;
+}
+.socailLinks li a:hover{
+  color: rgba(253, 76, 92, 1);
+}
+.footBottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 40px;
+    margin-top: 40px;
+}
+html , body {
+  overflow-x: hidden;
+}
+.gradbg {
+  background-image: linear-gradient(to right, rgba(215, 80, 178, 1), rgba(168, 129, 252, 1), rgba(76, 111, 255, 1));
+}
+.decoArrow{
+position: relative;
+}
+.decoArrow:before{
+position: absolute;
+right: 0;
+bottom: 50px;
+content: "";
+background: url('../images/lottery/fundIcon.png') no-repeat center center;
+background-size: 150px auto;
+width: 150px;
+height: 165px;
+}
+.lotryImg {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+}
+.lotryImg:before , 
+.lotryImg:after{
+ content: "";
+ position: absolute;
+ top: 50%;
+ right: 0;
+ transform: translateY(-50%);
+background: url('../images/lottery/ticketIconRIght.png') no-repeat center center;
+background-size: 120px auto;
+width: 138px;
+height: 142px;
+}
+.connectWalet{
+  position: relative;
+}
+.connectWalet:after {
+  content: "";
+  background: url(../images/lottery/camera1.png) no-repeat center center;
+  background-size: 80px;
+  position: absolute;
+  right: 0;
+  bottom: -30px;
+    width: 80px;
+    height: 220px;
+}
+
+.lotryImg:after {
+     right: auto;      
+     left: 0;
+  background: url('../images/lottery/ticketLeftIcon.png') no-repeat center center;
+}
+
+.how2Play{
+padding-top: 100px;
+}
+.finshRound > .container,
+.how2Play .container,
+.winngCrtra .row{
+z-index: 5;
+position: relative;
+}
+.finshRound > .container:before{
+position: absolute;
+  z-index: -1;
+  background: url('../images/lottery/bghighs.png') no-repeat center center;
+  background-size: 500px auto;
+  width: 600px;
+  height: 400px;
+  content: "";
+  left: -150px;
+  top: -100px;
+  filter: blur(5px);
+  display: block;
+}
+.finshRound > .container:after{
+content: "";
+  position: absolute;
+  right: -160px;
+  bottom: -70px;
+  width: 201px;
+  height: 293px;
+  background: url('../images/lottery/rocketIcon.png') no-repeat center center;
+  background-size: 201px auto;
+  z-index: 5;
+}
+
+.winngCrtra .row:after{
+position: absolute;
+background: url('../images/lottery/blurCube.png') no-repeat center center;
+background-size: 152px 162px;
+height: 162px;
+width: 152px;
+content: "";
+right: -40px;
+  top: -90px;
+  z-index: -1;
+}
+
+.how2Play .col-lg-4:before{
+content: "";
+position: absolute;
+width: 70%;
+height: 40%;
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+background: rgba(12, 0, 2, 1);
+bottom: -15px;
+left: 0;
+right: 0;
+margin: auto;
+z-index: -1;
+filter: blur(1px);
+}
+.lessPad .col {
+  max-width: 130px;
+}
+
+span.visually-hidden {
+  display: none;
+}
+/* Butickets Modal css */
+.topUp {
+  position: absolute;
+  animation: 0;
+  z-index: 6;
+  width: 100px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: -115px;
+}
+.modalBlue {
+  padding: 25px;
+  max-width: 500px;
+  width: 95%;
+  margin: 20px auto;
+  background: #323146;
+  border-radius: 15px;
+  overflow: hidden;
+  font-size: 16px;
+}
+.ticktwrap {
+  padding: 20px;
+  border-radius: 15px;
+  margin: 10px 0;
+}
+.purchList {
+  padding-top: 15px;
+  letter-spacing: 1px;
+  font-size: 17px;
+  font-family: poppins;
+}
+.purchList:last-child{
+  margin-bottom: 0;
+}
+.headModal {
+  background: #39364F;
+  margin: -25px -25px 30px;
+  padding: 20px;
+}
+.logoWrap {
+  margin: 15px 0;
+  font-size: 18px;
+}
+.logoWrap img{
+  height: 40px;
+  object-fit: contain;
+  object-position: center center;
+  margin-bottom: 10px;
+}
+.headModal h3.gradText {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+.ticketNmberWrap {
+  overflow: hidden;
+  overflow-y: auto;
+  max-height: 280px;
+  margin-right: -10px;
+    padding-right: 10px;
+}
+.ticketNmber {
+  padding: 0 8px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.ticketNmberWrap::-webkit-scrollbar {
+  width: 5px;
+}
+.ticketNmberWrap::-webkit-scrollbar-track {
+  background: #242235; 
+  border-radius: 10px;
+}
+ 
+.ticketNmberWrap::-webkit-scrollbar-thumb {
+  background: #3D3A55; 
+  height: 60px;
+  border-radius: 10px;
+}
+
+.ticketNmberWrap::-webkit-scrollbar-thumb:hover {
+  background: #4C6FFF; 
+}
+.bgltBlack {
+  background: #242231;
+} 
+body .popinsBold , body .ant-modal-body .titletckt , 
+.titletckt span , .ticktwrap  h5 , .popinsBold > span{
+  font-family: poppinsbold !important;
+}
+.ticktwrap  h5 {
+  font-size: 17px;
+}
+.purchList + .dottedBrd {
+  margin: 25px 0;
+  padding: 0;
+}
+/* end of modal popup */
+
+@media (min-width:1441px){
+  body .container , body.lottery-page .header .wrapper{
+    padding-left: 8px;
+    padding-right: 8px;
+    max-width: 1228px;
+    width: 95%;
+  }
+}
+@media (min-width:1800px){
+  .footer {
+    padding: 450px 0 10px;
+  }
+}
+@media (min-width:2200px){
+  .footer {
+    padding: 550px 0 10px;
+  }
+}
+@media (min-width:2800px){
+  .footer {
+    padding: 650px 0 10px;
+  }
+}
+
+@media (max-width:1440px){
+  body .container ,body.lottery-page .header .wrapper {
+    width: 95% !important;
+    max-width: 1084px;
+  }
+  body h2.gradText {
+    font-size: 35px;
+  }
+  body .titlesm h3{
+    font-size: 19px;
+  }
+  .priceSm {
+    font-size: 13px;
+}
+.connectWalet h3.gradText {
+  font-size: 30px;
+} 
+.font25 , .hgltBg{
+  font-size: 20px;
+}
+.slideCnt .carousel-item > p{
+  font-size: 18px;
+}
+.nmberIn img {
+  width: 50px;
+}
+.poppinsFont h3 {
+  font-size: 20px;
+} 
+.finshRound .titlesm h3 small {
+  font-size: 18px;
+}
+.playBx p , .textCritera p{
+  font-size: 15px;
+}
+.textCritera h3 {
+  font-size: 20px;
+} 
+body .footer h4.mb-4{
+  font-size: 16px;
+}
+.footer.poppinsFont {
+  font-size: 14px;
+}
+}
+
+@media (min-width:992px) and (max-width:1300px){
+  .graphDtlList > li{
+    width: 100%;
+  }
+  .footer {
+    padding: 260px 0 10px;
+  }  
+  .textCritera p {
+    font-size: 16px;
+  }
+  .connectWalet:after {
+    background-size: 50px;
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+    width: 50px;
+    height: 116px;
+}
+}
+
+@media (max-width: 1200px){
+  body.lottery-page .container {
+    width: 95% !important;
+    max-width: 956px;
+}
+.finshRound > .container:after {
+  right: -57px;
+    bottom: -61px;
+    width: 101px;
+    height: 151px;
+    background-size: 100% auto;
+}
+
+}
+@media (max-width: 991px){
+.finshRound .textwrp h2.gradText {
+  text-align: left;
+  margin: 10px 0;
+}
+.finshRound .flexBx{
+  text-align: left !important;
+  flex-direction: column;
+}
+.footWrp {
+  display: block !important;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px !important;
+}
+.finshRound .radiusBx .col-lg-9 > .text-center{
+text-align: left !important;
+}
+body .winNu{
+margin: 50px 0 !important;
+}
+body .winNu > .d-flex{
+display: block !important;
+text-align: center;
+}
+.nmberwrap{
+  flex-wrap: unset;
+  justify-content: center;
+  margin: 20px auto 0;
+}
+.how2Play .col-lg-4:not(:last-child) {
+  margin-bottom: 60px;
+}
+.winngCrtra{
+text-align: center;
+}
+.winngCrtra h2.gradText {
+  margin-bottom: 1rem !important;
+}
+.winngCrtra  .d-md-block{
+margin: auto;
+}
+h2.gradText.mb-5 {
+  margin-bottom: 30px !important;
+}
+.footer {
+  padding: 150px 0 10px;
+  background-position: center 0;
+  
+}
+body .footer h4.mb-4 {
+  margin-bottom: 10px !important;
+}
+.prizeFnds:before{
+  display: none;
+}
+.prizeFnds h3.mb-3{
+  font-family: poppinssemibold;
+  line-height: 27.7px;
+  padding-bottom: 20px;
+}
+h1.gradText {
+  font-size: 55px;
+} 
+.topSec h1.gradText {
+  line-height: 65.63px;
+}
+.connectWalet h3.gradText {
+  font-size: 30px;
+  line-height: 40.27px;
+} 
+body h2.gradText {
+  font-size: 35px;
+}
+.how2Play .col-lg-7 p {
+  font-size: 22px;
+}
+.connectWalet:after{
+  display: none;
+}
+.modalBlue{
+  font-size: 15px;
+}
+}
+
+
+@media (max-width: 810px){
+  body .container {
+    width: 100% !important;
+  }
+  body.lottery-page .container {
+    width: 95% !important;
+    max-width: 100%;
+}
+  .section1Lotry.padSec , body.lottery-page {
+    background: transparent;
+}
+.lottrySec{
+  background-image: url('../images/lottery/mobile-lotteryicon.png') , 
+  url('../images/lottery/mobile-lotteryicon2.png') , url('../images/lottery/mobile-lotteryicon3.png');
+  background-position: left 5px , right 10px , left 60% ;
+  background-repeat: no-repeat , no-repeat , no-repeat;
+  background-size: 55px auto , 60px auto , 50px auto;
+}
+.section1Lotry {
+   max-width: 100% !important;
+  width: 100% !important;
+  background-image: url('../images/lottery/lottry_frombg.png') , url('../images/lottery/top-bg.png') , url('../images/lottery/starBg.png') , url('../images/lottery/ticketBgside.png'), url('../images/lottery/rightIconLottryTop.png') , url('../images/lottery/rightIconLottry.png');
+  background-position: center center , -31px 0 , 0 60% , -20px 75% , 106% 10% , 105% 60%;
+  background-repeat: no-repeat , no-repeat , no-repeat , no-repeat , no-repeat , no-repeat;
+  background-size: 1000px auto , 100px auto , 0 auto , 60px auto , 61px auto , 80px auto;
+}
+h1.gradText {
+  font-size: 60px;
+}
+.footer {
+  background-size: 100% auto;
+}
+.lotryImg:before {
+  content: "";
+  position: absolute;
+  top: 20%;
+  right: -70px;
+  transform: none;
+}
+.lotryImg:after{
+  top: 60%;
+  left: -70px;
+  right: auto;
+}
+.footer .col-md-4 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+body .winNu {
+  margin: 30px 0 70px  !important;
+}
+.slideCnt.carousel.slide {
+  position: static;
+}
+.relativeBx{
+  position: relative;
+  padding: 5px 0;
+}
+.headTitle a.carousel-control-next, .headTitle .carousel-control-prev {
+  top: auto;
+  right: auto;
+  transform: none;
+  bottom: 10px;
+  left: calc(50% - 40px);
+}
+.headTitle a.carousel-control-next{
+  left: calc(50% + 10px);
+  right: auto;
+}
+.how2Play {
+  padding-top: 50px;
+}
+.how2Play .col-lg-7 p {
+  font-size: 17px;
+}
+.playBx h3 {
+  font-size: 25px;
+}
+.playBx p {
+  line-height: 1.6;
+  font-size: 18px;
+}
+.how2Play .col-lg-4:not(:last-child) {
+  margin-bottom: 40px;
+}
+.padSec {
+  padding: 40px 0;
+}
+.textCritera p {
+  margin-bottom: 5px;
+  font-size: 19px;
+  line-height: 1.6;
+}
+.textCritera h3 {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #fff;
+  line-height: 34px;
+  font-family: poppinssemibold;
+}
+.cardHead a.btnMain {
+  font-size: 14px;
+  line-height: 11.25px;
+  padding: 7px 15px;
+}
+.cardHead .btnMain {
+  font-size: 14px;
+  line-height: 12.25px;
+  padding: 7px 15px;
+}
+.lottrySec > .container {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+}
+
+  body h2.gradText {
+    font-size: 28px;
+}
+.NexDraw span.display4 {
+  font-size: 18px;
+}
+span.nmberIn {
+  max-width: 60px;
+}
+.poppinsFont h3 {
+  font-size: 16px;
+}
+.headTitle h3 span {
+  font-size: 12px;
+  max-width: 50%;
+}
+body .NexDraw .btnMain {
+  font-size: 11.11px;
+}
+.NexDraw .cntntWrp > h4 {
+  font-size: 17px;
+}
+.headTitle {
+  margin: -10px -10px 20px;
+  padding: 15px 15px;
+}
+.radiusBx h4 {
+  font-weight: normal;
+  font-size: 13px;
+  margin-bottom: 10px;
+  line-height: 18.46px;
+}
+body .titlesm h3{
+  font-size: 16.83px;
+}
+.priceSm{
+  font-size: 14px;
+}
+.tabBox {
+  margin: 4px 0;
+}
+.connectWalet h3.gradText {
+  font-size: 25px;
+  line-height: 31.62px;
+}
+.finshRound > .container:before ,
+.winngCrtra .row:after,
+.finshRound > .container:after,
+.iconCOin {
+  display: none;
+}
+.NexDraw , .borderLine {
+  padding: 10px;
+} 
+.graphDtlList > li{
+  width: 100%;
+}
+
+.topSec h3 {
+  font-size: 23.41px;
+  line-height: 35.12px;
+  margin: 0;
+}
+h1.gradText {
+  font-size: 50.17px;
+}
+.topSec h1.gradText {
+  line-height: 63.97px;
+}
+body .headTitle h3 {
+  font-size: 13.03px;
+} 
+.font25 , .hgltBg{
+  font-size: 20px;
+}
+.hgltBg {
+  line-height: 1.1;
+  border-radius: 2px;
+}
+.slideCnt .carousel-item > p{
+  font-size: 17px;
+}
+.radiusBx span.smText {
+  font-size: 15px;
+  color: #fff;
+}
+.playBx p{
+  font-size: 15px;
+}
+.textCritera h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+.textCritera p{
+  font-size: 16px;
+}
+.prizeFnds h3.mb-3 {
+  line-height: 25px;
+  padding-bottom: 15px;
+  font-size: 16px;
+}
+.headModal h3.gradText {
+  font-size: 28px;
+} 
+.modalBuy .headModal h3.gradText {
+  font-size: 22px;
+}
+.ticktwrap h5 {
+  font-size: 15px;
+}
+.purchList{
+  font-size: 14px;
+}
+body .purchList .popinsBold {
+  font-size: 15px;
+}
+.modalBlue{
+  font-size: 14px;
+}
+
+}
+@media (max-width:575px){
+  .footer {
+    padding: 90px 0 10px;
+  }
+}

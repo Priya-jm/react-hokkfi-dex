@@ -1,0 +1,308 @@
+.add-liquidity .titleHead{
+    font-size: 24px;
+    color: #fff !important;
+    font-weight: 600 !important;
+    margin-bottom: 15px;
+}
+.add-liquidity .cardHead p {
+    font-weight: 500;
+    font-size: 19px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    line-height: 1.25;
+}
+.add-liquidity .cardContent p {
+    font-size: 16px;
+    font-weight: normal;
+    color: #CECECE;
+    line-height: 1.45;
+}
+.ant-layout.site-layout.add-liquidity {
+    margin-bottom: 16px;
+}
+.add-liq-input .cardContent .input-inner {
+    background: #090A0B;
+    border-radius: 66px;
+    padding: 12px 35px 14px 35px;
+    align-items: center;
+}
+.add-liq-input .cardHead h4 {
+    font-size: 19px;
+    color: #E5E5E5;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+p.bal-txt.small-txt {
+    text-align: right;
+    margin-bottom: 5px;
+}
+.small-txt {
+    color: #9F9F9F;
+    font-size: 12px;
+    line-height: 15px;
+}
+.input-content-inner {
+    align-items: center;
+}
+.input-content-inner > *:not(:last-child) {
+    margin-right: 12px;
+}
+.upr-txt {
+    color: #E5E5E5;
+    font-size: 18.7px;
+    font-weight: 500;
+}
+button.dropDown-btnMain {
+    box-shadow: 0px 5.2431px 35.653px rgb(72 128 255 / 34%);
+    border-radius: 14px;
+    width: 50px;
+    height: 30px;
+    border: 0;
+    opacity: 0.8;
+    background: #fff;
+}
+.input-content-inner .btnMain {
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 12px;
+    line-height: normal;
+}
+.input-no p {
+    color: #7C95FE;
+    font-size: 22px;
+    margin: 0;
+}
+.add-liq-input .cardIn {
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+}
+.price-sec {
+    background: #171C22;
+    border-radius: 14px;
+    position: relative;
+}
+.price-name {
+    background: #1B2127;
+    padding: 20px 30px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.price-name p {
+    font-size: 19px;
+    font-weight: 500;
+    margin: 0;
+    line-height: 24px;
+}
+.price-cont-outer.d-flex {
+    width: 100%;
+    padding: 22px 22px 62px;
+}
+button.btnMain.btn-abs {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -18px;
+    color: #fff;
+    padding: 16px 31px;
+    line-height: normal;
+}
+.pri-cls {
+    color: #839BFF;
+    font-size: 22px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+.pri-txt {
+    color: #CECECE;
+    font-size: 19px;
+    margin: 0;
+    line-height: 24px;
+}
+.price-cont {
+    position: relative;
+    padding-right: 5%;
+    margin-right: 5%;
+}
+.price-cont:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 1px;
+    height: 45px;
+    background: #676767;
+}
+.price-cont:last-child:before {
+    background: transparent;
+    width: 0;
+    height: 0;
+}
+div#dashboardPg div#inptDsgn .ant-select.ant-select-single .ant-select-selector{
+    margin-left: 10px;
+    background-color: transparent !important;
+    border:0;
+    padding: 0 25px 0 0 !important;
+} 
+div#inptDsgn .ant-select-arrow {
+    background: #fff;
+    padding: 6px 8px;
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    min-width: 30px;
+    right: 0;
+    margin: 0;
+    transform: translateY(-50%);
+}
+ .ant-select-item-option .upr-txt {
+    color: #000;
+}
+div#inptDsgn span.ant-select-selection-item {
+    display: flex;
+    align-items: center;
+}
+div#inptDsgn span.ant-select-selection-item img{
+    max-height: 22px;
+    margin-right: 5px;
+}
+.ant-select-item-option-content {
+    display: flex;
+    align-items: center;
+}
+.ant-select-item-option-content img{
+    max-height: 30px;
+    margin-right: 8px;
+}
+
+.btn-abs {
+    position: absolute;
+    bottom: -18px;
+    width: 100%;
+    z-index: 55;
+}
+.cardIn{
+    position: relative;
+}
+.plsIcon {
+    position: absolute;
+    top: -5px;
+    z-index: 5;
+    width: 35px;
+    height: 35px;
+    background: #4C6FFF;
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    margin: auto;
+    left: 0;
+}
+@media (max-width:767px){
+    .price-cont-outer.d-flex {
+        width: 100%;
+        padding: 10px 10px 20px;
+        flex-wrap: wrap;
+    }
+    .price-cont:before{
+        display: none;
+    }
+    .price-cont:not(:first-child) {
+        padding-left: 0;
+    }
+    .pri-cls {
+        font-size: 18px;
+    } 
+    .price-cont {
+        position: relative;
+        padding-right: 0;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .pri-txt {
+        font-size: 17px;
+    }
+    button.btnMain.btn-abs {
+        position: relative;
+        left: 0;
+        transform: none;
+        bottom: 0;
+        color: #fff;
+        padding: 5px 10px;
+        line-height: normal;
+    }
+    .btnWrapfoot {
+        text-align: center;
+        margin-bottom: 0;
+        padding: 0 0 30px;
+    }
+    .price-sec {
+        padding: 0 30px 30px;
+    }
+    .price-name{
+        margin: 0 -30px;
+    }
+    .price-cont-outer.d-flex{
+        padding: 15px 0;
+    }
+    .price-cont{
+        padding: 10px 0 0;
+        margin: 0 !important;
+    }
+    .price-sec button.card_dark_btn_link{
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .add-liq-input .cardContent .input-inner {
+        padding: 12px 15px 14px 15px;
+        border-radius: 35px;
+    }
+    .price-name {
+        padding: 15px 20px;
+        margin: 0 -20px;
+    }    
+    .price-sec {
+        padding: 0 20px 30px;
+    }
+    .price-cont {
+        
+    }
+}
+
+@media (min-width:811px) and (max-width: 1441px) {
+    .pri-cls {
+        font-size: 18px;
+    }
+    .price-name p{
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .pri-txt {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+}
+@media  (min-width:577px) and  (max-width: 810px) {
+    .price-name p{
+        font-size: 16px;
+    }
+    .price-cont-outer.d-flex {
+        padding: 22px 30px 62px;
+    }
+    
+}
+@media (max-width:575px){
+    .price-name p {
+        font-size: 16px;
+    }
+}

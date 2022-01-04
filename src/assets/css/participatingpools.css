@@ -1,0 +1,218 @@
+
+/* content right */
+.ant-layout-content{
+    padding-left: 0;
+}
+.cardIn {
+    color: white;
+}
+.cardWrap {
+    padding: 30px 40px;
+    background: rgba(0,0,0,0.5) !important;
+    margin-bottom: 0;
+    border-radius: 30px;
+}
+.titleHead{
+    font-size: 24.74px;
+    color: #fff !important;
+    margin-bottom: 15px;
+    line-height: 25.46px;
+    font-weight: 600 !important;
+}
+.cardIn {
+    border-radius: 20px;
+    padding: 30px;
+    background: rgba(23, 28, 34, 0.8);
+}
+.cardIn:not(:last-child){
+    margin-bottom: 20px;
+}
+.cardList {
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 20px;
+}
+.cardList > li{
+    padding: 13px 0;
+    border-bottom: 1px dashed rgb(200 162 162 / 25%);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 16.49px;
+    line-height: 25px;
+    font-weight: 500;
+    font-family: roboto;
+}
+.cardList > li:last-child{
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+.iconWrap {
+    color: #fff;
+    align-items: center;
+}
+.iconWrap h4 {
+    color: #fff;
+    margin: 0;
+    font-size: 16.49px;
+    text-transform: uppercase;
+    font-family: roboto;
+    line-height: 24.74px;
+}
+.iconImg {
+    display: flex;
+    align-items: center;
+    z-index: 5;
+    flex-direction: row-reverse;
+    margin: 0 15px 0 0;
+    padding: 0;
+}
+.iconImg img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-left: -5px;
+    object-fit: contain;
+}
+.liteHead {
+    font-size: 21px;
+    line-height: 31.68px;
+    font-family: roboto;
+    font-weight: 400;
+}
+.strongHead{
+    line-height: 31.68px;
+    font-size: 25.61px;
+    font-family: roboto;
+    font-weight: 700;
+}
+.liquBox h3{
+    font-size: 24.7361px; 
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.liquBox h2{
+    font-size: 30px;
+    line-height: 1;
+}
+.liquBox h2 small{
+    font-size: 19px;
+}
+.liquBox .iconTx {
+    align-items: start;
+}
+.font18 , .font16{
+    font-size: 18px;
+    font-family: interMedium;
+    line-height: 25.46px;
+}
+.font16{
+    font-size: 16px;
+}
+.textLg p {
+    font-size: 19px;
+    line-height: 31.68px;
+    margin-bottom: 10px;
+}
+.textLg .boxShdwNone a {
+    display: inline-flex;
+    margin-top: 10px;
+}
+@media (min-width:1024px) and (max-width:1440px) {
+    .titleHead , .liquBox h3 , .section_heading {
+        font-size: 18px;
+    }
+    .liteHead {
+        font-size: 17px;
+        line-height: 23.68px;
+    } 
+    .strongHead , .liquBox h2 {
+        line-height: 25px;
+    font-size: 22px;
+    }   
+    .textLg p {
+        font-size: 15px;
+        line-height: 27.68px;
+    }
+    .liquBox h2 small {
+        font-size: 70%;
+    }
+    .font18, .font16 {
+        font-size: 15px;
+    }    
+}
+@media (max-width: 810px){
+    
+    .widraBx .bglightBlu {
+        padding: 12px 20px;
+        font-size: 20.19px;
+        line-height: 19.34px;
+        font-family: poppinssemibold;
+    }
+    .widraBx h3 {
+        font-size: 13px;
+        line-height: 9.76px;
+    }
+    .cardWrap {
+        padding: 30px 20px;
+    }  
+    .iconImg img {
+        width: 20px;
+        height: 20px;
+    }
+    .iconImg{
+        margin-right: 5px;
+    }
+    .cardIn {
+        border-radius: 15px;
+        padding: 20px 15px;
+        margin-bottom: 12px;
+    }
+    .cardList > li {
+        font-size: 14px;
+        line-height: 21.34px;
+    }
+    .titleHead {
+        font-size: 16px;
+    } 
+    .liteHead {
+        font-size: 16.6401px;
+        line-height: 22px;
+    }  
+    .strongHead {
+        line-height: 22px;
+        font-size: 18px;
+    }
+    .textLg p {
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .liquBox h3 {
+        font-size: 17px;
+        line-height: 23px;
+    }
+    .liquBox h2 {
+        font-size: 17px;
+    }
+    .liquBox  .resutlWrap h2{
+        font-size: 20px;
+    }
+    .liquBox h2 small {
+        font-size: 70%;
+    }
+    .pri-cls {
+        font-size: 16px;
+    }
+    .pri-txt {
+        font-size: 14px;
+        line-height: 18px;
+    }   
+    .font18, .font16 {
+        font-size: 15px;
+        line-height: 22.46px;
+    }
+    .mt-4 h2.section_heading {
+        margin-bottom: 0;
+    }
+}
+

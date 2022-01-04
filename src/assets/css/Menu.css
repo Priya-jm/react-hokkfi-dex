@@ -1,0 +1,561 @@
+/* header */
+.header {
+    background: rgba(0,0,0,0.5);
+}
+.header {
+    background: rgba(0,0,0,0.5);
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 555;
+}
+.headedrop.dropdown button {
+    background-color: #4C6FFF;
+    border: none;
+    background-image: url(../images/base.svg);
+    background-size: auto 26px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 34px;
+    height: 34px;
+}
+.headedrop.dropdown button:after {
+    display: none;
+}
+.dropMenu{
+    align-items: center;
+}
+button.connectwallet {
+    background: #4C6FFF;
+    border: 0;
+    height: auto;
+    padding: 5px 20px;
+    color: #fff;
+    margin: 0 8px;
+    border-radius: 5px;
+}
+.dropMenu .ant-select-selector {
+    padding: 0 8px !important;
+    height: auto !important;
+}
+.dropMenu .ant-select-selector img {
+    max-height: 22px;
+    margin-right: 5px;
+}
+.dropMenu .ant-select-selector {
+    padding: 0 8px !important;
+    height: auto !important;
+    border-radius: 6px !important;
+}
+.dropMenu  span.moreBtn svg {
+    display: inline-block;
+    fill: #fff;
+    font-size: 25px;
+}
+.dropMenu .anticon-more.moreBtn {
+    background: #4C6FFF;
+    border-radius: 5px;
+    padding: 4px;
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+
+/* end of header */
+.sideBarMenu ,
+.ant-layout-sider{
+    background: #0b0d11 !important;
+    text-align: left;
+    padding: 30px 20px 120px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    position: sticky !important;
+    top: 96px;
+    height: calc(100vh - 115px);
+    min-height: 550px !important;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.ant-layout-sider-collapsed{
+    padding: 20px 10px;
+}
+.logo {
+    min-width: 100px;
+    text-align: left;
+}
+.ant-layout-sider-collapsed .logo {
+    text-align: center;
+}
+.ant-layout-sider-collapsed .logo{
+    min-width: auto;
+}
+.collsLogo ,
+.ant-layout-sider-collapsed .logo img{
+    display: none;
+}
+.ant-layout-sider-collapsed .logo  .collsLogo{
+    display: inline-block;
+}
+
+.ant-layout-sider-trigger {
+    border-radius: 5px;
+    max-width: 25px;
+    position: absolute !important;
+    top: 73px;
+    background: #fff !important;
+    padding: 0 !important;
+    line-height: 25px !important;
+    height: 25px !important;
+    right: 20px;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ant-layout-sider-has-trigger .anticon svg {
+    display: inline-block;
+    fill: black;
+} 
+.ant-layout-sider-collapsed .ant-layout-sider-trigger {
+  top: 80px;
+}
+
+.menuList ,
+.ant-layout .ant-menu{
+    list-style: none;
+    margin: 30px 0;
+}
+.menuList > li,
+.ant-layout .ant-menu > li{
+    margin: 2px 0;
+    font-size: 15px;
+    position: relative;
+}
+.menuList > li > a,
+.ant-layout .ant-menu > li{
+    display: block;
+    padding: 12px 15px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: relative;
+    display: block;
+    background: transparent !important;
+    overflow: visible;
+    z-index: 5;
+    font-size: 13.87px;
+    line-height: 40px;
+    white-space: unset;
+    font-family: poppinssemibold;
+}
+.ant-layout .ant-menu > li > span > a{
+    line-height: 20.81px;
+}
+.menuList > li > a span{
+    color: #fff;
+}
+.ant-layout .ant-menu > li:before{
+    content: "";
+    bottom: auto;
+    top: 0;
+    border-top-left-radius: 30px;
+    background: transparent !important;
+    left: 0;
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: calc(100% + 30px);
+    height: 100%;
+    border-bottom-left-radius: 30px;
+  }
+  .ant-layout .ant-menu > li.ant-menu-item-selected:before{
+    background: #161b22 !important;
+}
+.ant-layout .ant-menu > li.ant-menu-item-selected .ant-menu-title-content:before ,
+li.ant-menu-item-selected .ant-menu-title-content span:before,
+.ant-layout .ant-menu > li.ant-menu-item-selected .ant-menu-title-content:after ,
+li.ant-menu-item-selected .ant-menu-title-content span:after{
+    content: "";
+    position: absolute;
+    right: -22px;
+    bottom: 100%;
+    background: #161b22;
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.ant-layout .ant-menu > li.ant-menu-item-selected .ant-menu-title-content:after ,
+li.ant-menu-item-selected .ant-menu-title-content span:after{
+    bottom: auto;
+    top: 100%;
+}
+li.ant-menu-item-selected .ant-menu-title-content span:before ,
+li.ant-menu-item-selected .ant-menu-title-content span:after{
+    z-index: 5;
+    border-bottom-right-radius: 30px;
+    background: #0b0d11;
+}
+li.ant-menu-item-selected .ant-menu-title-content span:after{
+    border-radius: 0;
+    border-top-right-radius: 30px;
+}
+.ant-layout-sider-collapsed  .ant-menu{
+    margin-top: 50px !important;
+}
+.ant-layout-sider-collapsed .ant-layout-sider-trigger{
+    right: 28px;
+}
+.ant-layout-sider-collapsed .ant-menu-inline-collapsed > li.ant-menu-item-selected:before{
+    border-radius: 20px !important;
+    width: 100% !important;
+    background: #4C6FFF !important;
+}
+.ant-layout.ant-layout-has-sider {
+    flex-direction: row;
+    padding: 30px 0 0;
+    background: transparent !important;
+    min-height: auto !important;
+}
+.ant-layout{
+    background: transparent !important;
+}
+.menuList > li.ant-menu-item-selected:before{
+    background-size: 100% auto;
+}
+.ant-layout-header,
+.ant-layout-footer{
+    display: none;
+}
+.ant-menu .ant-btn,
+.ant-menu .langn{
+    display: none;
+}
+.ant-menu + div{
+    display: block !important;
+}
+.ant-menu{
+    background: transparent !important;
+}
+.ant-layout-sider .ant-menu .logoutWrap{
+    display: none;
+}
+.ant-layout-sider-collapsed .ant-btn.logoutBtn > .anticon + span{
+    margin-left: 0 !important;
+}
+body .ant-layout-sider-collapsed .logoutBtn svg{
+    margin-right: 0;;
+}
+.logoutWrap {
+    position: absolute;
+    bottom: 0;
+    padding: 20px 20px 30px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 55;
+}
+body .logoutBtn {
+    border-radius: 5px;
+    padding: 8px 15px;
+    color: #685BFF !important;
+    height: auto;
+    font-size: 13.87px;
+    font-family: poppinssemibold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0 !important;
+}
+body .logoutBtn:hover {
+    background: #f5f5f5 !important;
+}
+
+body .logoutBtn span.anticon-import{
+    background: url('../icons/logoutIcon.svg') no-repeat center center;
+    background-size: 18px auto;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+}
+body .logoutBtn svg {
+    display: inline-block;
+    fill: #685BFF !important; 
+    font-weight: bold;
+    margin-right: 5px;
+    opacity: 0;
+}
+span.langn {
+    display: block;
+    color: #fff;
+    font-family: poppinssemibold;
+    margin-top: 10px;
+    font-size: 13.87px;
+    line-height: 20.81px;
+}
+body .ant-layout-sider-collapsed  .logoutBtn span + span{
+    font-size: 0;
+}
+body .ant-layout-sider-collapsed .logoutBtn {
+    border-radius: 5px;
+    padding: 4px 8px;
+    margin: auto;
+}    
+body .ant-layout-sider-collapsed .logoutWrap > div {
+    text-align: center;
+}
+body .ant-layout-sider-collapsed  span.langn {
+    font-size: 10px;
+}
+body body .ant-layout-sider-collapsed .logoutBtn svg{
+    margin: 0;
+}
+.ant-layout-sider .dropdown {
+    margin-top: 18px;
+}
+
+div#dashboardPg .ant-select.ant-select-single .ant-select-selector {
+    padding: 5px 12px !important;
+    height: auto;
+    border-radius: 5px;
+}
+.ant-layout-sider .dropdown{
+    display: none;
+}
+.ant-menu-inline.ant-menu-root .ant-menu-item > .ant-menu-title-content, 
+.ant-menu-inline.ant-menu-root .ant-menu-submenu-title > .ant-menu-title-content{
+    word-break: break-all !important;
+    text-overflow: unset !important;
+    overflow: unset !important;
+}
+aside .ant-menu-item-selected a > span{
+    color: rgb(137, 160, 255) !important;
+}
+aside li.ant-menu-item a> span {
+    transition: all 500ms ease;
+    color: rgba(255, 255, 255 , 1);
+}
+aside li.ant-menu-item a:hover > span {
+    color: rgba(255, 255, 255 , 0.7);
+}
+.ant-layout-sider-collapsed span.ant-menu-title-content {
+    display: none !important;
+}
+.ant-layout-sider-collapsed .ant-menu-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* exchange menu */
+body.exchange-page aside#mobile_side_bar {
+    height: auto;
+}
+/* end exchange menu */
+
+@media (min-width: 1024px){
+    section.ant-layout.site-layout {
+        margin-left: 30px;
+    }
+
+    .ant-layout-sider::-webkit-scrollbar {
+        display: none;
+      }
+      
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .ant-layout-sider {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+      }
+      .close_menu_icon{
+          display: none !important;
+      }
+      span.anticon.anticon-menu.mob_menu_icon {
+        display: none;
+    }
+}
+@media (max-width:1440px){
+    .menuList > li > a, .ant-layout .ant-menu > li,
+    body .logoutBtn , span.langn{
+        font-size: 11.87px;
+    }
+}
+
+@media (max-width:1023px){
+    .ant-menu .ant-layout-sider-trigger , .ant-layout .ant-menu > li.ant-menu-item-selected .ant-menu-title-content:before, li.ant-menu-item-selected .ant-menu-title-content span:before, .ant-layout .ant-menu > li.ant-menu-item-selected .ant-menu-title-content:after, li.ant-menu-item-selected .ant-menu-title-content span:after{
+        display: none;
+    }
+    span.anticon.anticon-close-circle.close_menu_icon {
+        position: absolute;
+        right: 15px;
+        top: 20px;
+        z-index: 555;
+    }
+    div#dashboardPg .close_menu_icon svg{
+        fill: #fff !important;
+        width: 25px;
+        height: 25px;
+    }
+    .ant-layout.ant-layout-has-sider{
+        flex-direction: column;
+    }
+    .sideBarMenu, .ant-layout-sider {
+        background: rgba(11,13,17,0.9) !important;
+        padding: 30px 25px 120px;
+        max-height: 100vh;
+        height: 100vh;
+        min-height: 550px;
+        position: fixed !important;
+        top: 0;
+        z-index: 555;
+        left: 0;
+        border-radius: 0;
+        min-width: 300px !important;
+        overflow-y: auto;
+        overflow-x: hidden;
+        left: -300px;
+        transition: all 500ms ease-in-out;
+    }
+    .OpenMobileScreen{
+        margin-left: 0px;
+        transition: 1s;
+    }   
+    .OpenMobileScreen{
+        left: 0px;
+    }
+    .CloseMobileScreen{
+        left: -300px;
+    }    
+    .ant-layout .ant-menu > li.ant-menu-item-selected:before{
+        display: none;
+    }
+    .ant-layout .ant-menu > li.ant-menu-item-selected .ant-menu-title-content a{
+        color: #89A0FF !important;
+    }
+    .ant-layout-sider-trigger{
+        display: none;
+    }
+    .logo{
+        text-align: left;
+    }
+    .ant-menu-inline.ant-menu-root .ant-menu-item{
+        padding: 10px 0 !important;
+    }
+    .logoutWrap {
+        justify-content: left;
+    }
+    span.anticon.anticon-menu.mob_menu_icon {
+        display: flex;
+        fill: white;
+        background: #4C6FFF;
+        width: 40px;
+        height: 30px;
+        color: white;
+        padding: 5px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 10px 0 0;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    span.anticon.anticon-menu.mob_menu_icon  svg{
+        width: 18px !important;
+        height: 18px !important;
+    } 
+    .logoutWrap {
+        justify-content: left;
+    }
+    body.lottery-page  span.anticon.anticon-menu.mob_menu_icon{
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    body.lottery-page span.anticon.anticon-menu.mob_menu_icon{
+        display: block;
+    }
+    .header {
+        background: transparent;
+        position: static !important;
+    }
+    .headedrop.dropdown {
+        position: absolute;
+        right: 0px;
+        top: 12px;
+    }
+    .header .headDpdn.dropdown {
+        display: none;
+    }
+    .ant-layout-sider .dropdown{
+        display: block;
+    }
+    .header .wrapper.d-flex {
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+    .dropMenu {
+        align-items: center;
+        margin: 10px auto 0 !important;
+    }
+    .mainLogo {
+        max-width: 100px;
+        margin: auto;
+        transition: all 500ms ease;
+    }
+    .header.header_scroll .mainLogo img{
+        width: 100%;
+        transition: all 500ms ease;
+    }
+    .header.header_scroll .mainLogo img{
+        width: 40px;
+    }
+    span.anticon.anticon-menu.mob_menu_icon ,
+    .dropMenu .anticon-more.moreBtn{
+        position: absolute;
+        left: 0;
+        top: 12px
+    }
+    .dropMenu .anticon-more.moreBtn{
+        left: auto;
+        right: 0;
+    }
+}
+
+@media (max-width: 575px){
+    .btnMain{
+        padding: 12px 20px;
+        font-size: 15px;
+    }
+    .sideBarMenu, .ant-layout-sider {
+        min-height: auto !important;
+    }
+    .logoutWrap {
+        position: relative;
+        margin: 60px 0 30px;
+        padding: 0 0 30px;
+    }  
+    .ant-menu-inline.ant-menu-root .ant-menu-item{
+        margin: 0 !important;
+    }
+    .sideBarMenu, .ant-layout-sider{
+        min-height: auto;
+    }
+}
+
+@media (max-height:550px){
+    .sideBarMenu, .ant-layout-sider{
+        min-height: auto;
+    }
+    .sideBarMenu, .ant-layout-sider {
+        min-height: auto !important;
+    }
+    .logoutWrap {
+        position: relative;
+        margin: 30px 0 30px;
+        padding: 0 0 30px;
+    }  
+    .ant-menu-inline.ant-menu-root .ant-menu-item{
+        margin: 0 !important;
+    }
+}

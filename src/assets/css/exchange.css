@@ -1,0 +1,487 @@
+.right_main_section{
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.card_dark{
+    background-color: #00000054;
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
+
+}
+.addLiq .card_dark.add_form {
+    padding-bottom: 50px;
+}
+.exchangePg .card_dark{
+    padding: 20px;
+}
+.pad30{
+    padding: 30px;
+}
+.card_dark .title_div{
+    display: -webkit-inline-box;
+}
+.card_dark .title_div h2{
+    color: white;
+    font-size: 19px;
+    line-height: 13.2px;
+    margin-bottom: 20px;
+    font-family: interMedium;
+}
+.setting_icon{
+    position: relative;
+    right: 0px;
+}
+.d-flex {
+    display: flex!important;
+}
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+.form-div{
+    background-color: #090A0B;
+    border-radius: 38px;
+    padding: 15px 30px;
+}
+.align-items-center {
+    align-items: center!important;
+}
+.input::placeholder, .input, .input:focus , .exh-form-control:placeholder {
+    color: #3FA9F5;
+    opacity: 1;
+    box-shadow: none !important;
+    border: none;
+    outline: none !important;
+}
+.input{
+    background: none !important;
+    border: none !important;
+}
+.tip_text{
+    color: #CECECE;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+ input.exh-form-control::-webkit-input-placeholder { /* Edge */
+    color: #7C95FE;
+    opacity: 1;
+  }
+  
+ input.exh-form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #7C95FE;
+    opacity: 1;
+  }
+  
+ input.exh-form-control::placeholder {
+    color: #7C95FE;
+    opacity: 1;
+  }
+
+.label{
+    color: white;
+    margin-bottom: 0px;
+    margin-left: 0;
+    font-family: poppins;
+    font-size: 14px;
+}
+.exh-form-control {
+    color: #3FA9F5 !important;
+    font-size: 22px !important;
+    font-weight: bold !important;
+    font-family: poppinssemibold;
+    padding: 0 !important;
+}
+.exchangePg .wallet .exh-form-control{
+    height: auto !important;
+    padding: 0;
+    font-size: 22px !important;
+    line-height: 18.15px;
+}
+.exchangePg .form-div {
+    padding: 10px 20px;
+    background: #0D0F11;
+}
+.option_selector_div .btn-dropdown{
+    background-color: #cfcfcf;
+    padding: 0;
+    border-radius: 13px;
+    border: 1px solid;
+    width: 40px;
+    height: 25px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.option_selector_div .btn-dropdown img{
+    min-width: 12px;
+}
+
+
+.option_selector_div .m-logo{
+    height: 20px;
+    font-size: 21px;
+
+}
+.option_selector_div span{
+    color: #E5E5E5 !important;
+    margin:0px 6px;
+    font-size: 18.87px;
+    font-family: poppinssemibold;
+}
+.d-flex.justify-content-right .option_selector_div {
+    align-items: center;
+}
+.option_selector_div button.card_dark_btn_link.mg-l-auto {
+    padding: 5px 15px;
+    align-items: center;
+    height: auto;
+    background-color: #4C6FFF;
+}
+.option_selector_div{
+    display: flex;
+    margin-top: 0px;
+}
+.cardWrap .option_selector_div {
+    flex-direction: column;
+}
+.option_selector_div .card_dark_btn_link {
+    margin-right: 10px !important;
+}
+.card_dark_btn_div{
+    margin-top: 22px;
+}
+
+
+.dropdown-menu-div{
+    border-radius: 5px !important;
+    border: none !important;
+    padding: 0px !important;
+    min-width: 105px !important;
+}
+
+.arror_down_btn{
+    background-color: #3050d1;
+    color: white;
+    padding: 12px 19px;
+    border-radius: 100%;
+}
+.fa-long-arrow-up{
+    color: white !important;
+    font-size: 19px;
+    transform: rotate(180deg);
+}
+.card_dark_btn{
+    background-color: #3050d1;
+    color: white;
+    border: none !important;
+}
+.wallet button.card_dark_btnk{
+    background-color: #3050d1;
+    color: white;
+    font-size: 14.79px;
+}
+.dropdown-menu-div button{
+    display: block;
+    background: none;
+    border: none !important;
+    padding: 4px 7px;
+}
+.dropdown-menu-div button span{
+    color: black !important;
+    margin-left: 7px;
+}
+.dropdown-menu-div button img{}
+.price_main_div{
+    margin-top: 20px;
+}
+.price_main_div h3{
+    color: white;
+    font-family: roboto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 70px;
+    line-height: 1;
+}
+.price_main_div .col{
+    text-align: center;
+    width: 50%;
+}
+.price_main_div h2{
+    color: white;
+    line-height: 55.5px;
+    font-size: 55px;
+    margin-top: 2px !important;
+    font-family: 'roboto';
+    border-bottom: 1px dashed #BBBBBB;
+    width: 125px;
+    margin: auto;
+    margin-bottom: 11px;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.price_main_div p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: roboto;
+    line-height: 1;
+    margin-top: 13px;
+}
+.price_main_div span{
+    color: #3FA9F5;
+    font-size: 17px;
+}
+.price_main_div .row {
+    margin: 0 -5px;
+}
+.price_main_div .row > div{
+    padding: 0 5px;
+}
+.right_main_section .col-md-8 {
+    width: 70%;
+}
+
+.right_main_section .col-md-4 {
+    width: 30%;
+    padding-left: 15px;
+}
+.right_main_section .text-center.card_dark_btn_div {
+    text-align: center;
+}
+.card_dark label.label {
+    margin-left: 0px;
+}
+/* .right_main_section .dropdown-menu-right {
+    display: none;
+} */
+.wallet {
+    flex-wrap: wrap;
+}
+
+.form_to {
+    width: 50%;
+}
+
+.wallet .option_selector_div {
+    width: 50%;
+}
+
+.text-center.arror_down_bx {
+    text-align: center;
+}
+.fa-long-arrow-up:before {
+    content: "\f176";
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+.exchangePg .title_div.d-flex {
+    align-items: center;
+    margin-bottom: 15px;
+}
+.exchangePg .title_div.d-flex h2.title_div_heading{
+    margin: 0;
+}
+
+@media (max-width: 1440px){
+    .price_main_div p{
+        font-size: 16px;
+    }
+    .option_selector_div span{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 1023px){
+section.ant-layout.site-layout {
+    margin-left: 0px;
+}
+.price_main_div .col {
+    width: 100%;
+    flex: unset;
+}
+.option_selector_div .btn-dropdown img {
+    max-width: 10px;
+}
+.card_dark {
+    padding: 12px;
+}
+.selected {
+    padding-right: 0;
+}
+}
+@media (min-width:768px){
+    .addLiq .card_dark_btn_div , .card_dark_btn_div {
+        margin-top: 20px;
+        bottom: -15px;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    .addLiq .card_dark.add_form {
+        padding-bottom: 50px;
+    }
+    .exchangePg .card_dark{
+        padding: 20px 20px 50px;
+    }
+}
+@media (max-width:991px){
+    .price_main_div h3{
+        font-size: 20px;
+        line-height: 25px;
+        font-family: interMedium;
+    }
+    .price_main_div p{
+        font-size: 20px;
+    }
+    .price_main_div h2{
+        font-size: 55px;
+        line-height: 55.4px;
+    }
+    .price_main_div h3{
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .right_main_section{
+        margin-left: 0px !important;
+        margin-top: 5px !important;
+    }
+    .col-md-8 {
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+    .col-md-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+
+    .right_main_section .col-md-8 {
+        width: 100%;
+        max-width: 100%;
+        flex: unset;
+    }
+    .right_main_section .col-md-4 {
+        width: 100%;
+        padding-left: 0;
+        max-width: 100%;
+        flex: unset;
+    }
+    .price_main_div .col {
+        width: 50%;
+    }
+    .card_dark {
+        padding: 25px 12px 40px 12px;
+    }
+    .pad30{
+        padding: 20px;
+    }
+
+}
+@media (max-width: 991px){
+    .right_main_section.exchangePg .col-md-8 , .right_main_section.exchangePg .col-md-4{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .price_main_div .col {
+        width: 50%;
+        flex: 1;
+    }
+}
+@media (max-width:767px){
+    .btnWrapr > a {
+        width: 50%;
+        text-align: center;
+        justify-content: center;
+    }
+    .right_main_section {
+        padding-left: 8px;
+    padding-right: 8px;
+    }
+    .wallet .selected {
+        padding-right: 0;
+      }
+      .form-div .option_selector_div .dropdown.d-flex {
+        margin-left: 18px;
+      }
+      .exchangePg .form-div .option_selector_div .dropdown.d-flex {
+        margin-left: 5px;
+      }
+      .price_main_div .col {
+        width: 100% !important;
+        flex: unset;
+        margin-bottom: 20px;
+    }
+    .content-section-p {
+        font-size: 15px;
+    }
+    .form-div {
+        padding: 10px 20px;
+    }
+    .exh-form-control{
+        font-size: 16px !important;
+    }
+    .option_selector_div button.card_dark_btn_link.mg-l-auto{
+        padding: 2px 13px;
+        font-size: 10px;
+        line-height: 1;
+    }
+    .add_form .title_div_input h2 {
+        color: #E5E5E5;
+        font-size: 14.44px;
+    }   
+    .option_selector_div span{
+        font-size: 13px;
+    }
+}
+
+@media (min-width:992px) and (max-width: 1540px){
+    .right_main_section.exchangePg .col-md-8 {
+        flex: 0 0 56.666667%;
+        max-width: 56.666667%;
+    }
+    .right_main_section.exchangePg .col-md-4 {
+        flex: 0 0 43.33333%;
+        max-width: 43.33333%;
+    }
+    
+    .price_main_div h3{
+        font-size: 18px;
+    }
+    .price_main_div p {
+        font-size: 16px;
+    }
+    .price_main_div span {
+        font-size: 16px !important;
+    }
+
+    .proposals-list-div .heading_h2 a {
+        font-size: 15px;
+    }
+
+    .proposals-list-div .proposals_main_p {
+        font-size: 12.7px;
+    }
+    .proposals-list-div-bottom p{
+        font-size: 12px;
+    }
+}
+@media (min-width:992px) and (max-width: 1320px){
+    .price_main_div p {
+        font-size: 13px;
+    }
+    .price_main_div span {
+        font-size: 13px !important;
+    }
+}

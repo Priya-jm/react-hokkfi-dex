@@ -1,0 +1,22 @@
+.cardIn{
+    margin-bottom: 20px;
+}
+.tokenWrap h3{
+    margin-bottom: 15px;
+}
+.iconStar{
+    position: relative;
+    padding-right: 30px;
+}
+.iconStar:before{
+    background: url(../images/iconPower.svg) no-repeat right center;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    right: 0;
+    background-size: auto 24px;
+}
