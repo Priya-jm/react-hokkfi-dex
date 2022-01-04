@@ -296,9 +296,6 @@ div#inptDsgn span.ant-select-selection-item img{
     .price-name p{
         font-size: 16px;
     }
-    .price-cont-outer.d-flex {
-        padding: 22px 30px 62px;
-    }
     
 }
 @media (max-width:575px){

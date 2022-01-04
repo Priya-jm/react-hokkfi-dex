@@ -12,9 +12,16 @@ const Governance2=()=>{
                         <div className="col-md-12">
                             <div className="card_dark">
                                 <div className="title_div d-flex">
-                                    <div className="d-flex align-items-baseline mb-4 widthFull">
+                                <div className="d-none d-md-block">
+                                    <div className="d-flex align-items-center mb-4 widthFull">
                                         <h2 className='mb-0 top_heading'>Proposals</h2>
                                         <NavLink to="/governance/add_governance" className="card_dark_btn_link_add mg-right m-2 mt-0 liteBlue create_btn">Create Proposal</NavLink>
+                                    </div>
+                                    </div>
+                                    <div className="d-md-none">
+                                    <div className="d-flex align-items-center mb-4 widthFull ">
+                                        <h2 className='mb-0 top_heading'>Add Liquidity</h2>
+                                    </div>   
                                     </div>
                                 </div>
 
@@ -95,17 +102,21 @@ const Governance2=()=>{
 
                                 </div>
 
-                                <div className="div-content">
+                                <div className="div-content ">
+                                 <div className="sepratBx">
                                     <h3 className="sub-heading">Details</h3>
-                                    <p className="text-span"><span>1:</span> <span className="p-blue">0x1F98431c8aD98523631AE4a59f267346ea31F984</span> <span>.enableFeeAmount(100, 1)</span></p>
-
+                                    <p className="text-span mb-0"><span>1:</span> <span className="p-blue">0x1F98431c8aD98523631AE4a59f267346ea31F984</span> <span>.enableFeeAmount(100, 1)</span></p>
+                                </div>
+                                <div className="sepratBx">
                                     <h3 className="sub-heading">Description</h3>
                                     <p className="p-blue point_text">Add 1 Basis Point Fee Tier</p>
                                     <p className="text-span-heading">TLDR: Uniswap should add a 1bps fee tier with 1 tick spacing. This change is straightforward from a technical perspective and would help Uniswap compete in stablecoin  stablecoin pairs, where the majority of the market share is taken by Curve and DODO.
                                         Background on pool fees Uniswap v3 allows for the creation of new pools via calls to the factory contract. In order to keep liquidity for pairs consolidated, only a few fee options are allowed–currently, 5, 30, and 100 basis points are supported (10, 60, 200 tick spacing).</p>
-
+                                </div>
+                                <div className="sepratBx">
                                     <h3 className="sub-heading">Proposer</h3>
                                     <p className="p-blue token-heading">0x9B68c14e936104e9a7a24c712BEecdc220002984</p>
+                                    </div>
                                 </div>
                             </div>
 

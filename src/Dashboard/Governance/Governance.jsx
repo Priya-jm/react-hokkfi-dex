@@ -12,7 +12,7 @@ const Governance = () => {
                         <div className="col-md-12">
                             <div className="card_dark">
                                 <div className="title_div d-flex">
-                                    <div className="d-flex align-items-baseline mb-4 widthFull">
+                                    <div className="d-flex align-items-center mb-4 widthFull">
                                         <h2 className='mb-0 top_heading'>Proposals</h2>
                                         <NavLink to="/governance/add_governance" className="card_dark_btn_link_add mg-right m-2 mt-0 liteBlue create_btn">Create Proposal</NavLink>
                                     </div>

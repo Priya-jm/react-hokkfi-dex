@@ -40,7 +40,7 @@ const Add_Governance=()=>{
                                         <h3 className="sub-heading">Proposed Action</h3>
                                     </div>
                                     <div className="col-md-12">
-                                        <div className="content-section text-left p-4">
+                                        <div className="content-section text-left p-4 fixPad">
                                             <div className="option_selector_div">
                                                 <div className="d-flex align-items-center">
                                                     <span className="mx-2 token_title_text">Transfer Token</span>
@@ -66,7 +66,7 @@ const Add_Governance=()=>{
                                     </div>
 
                                     <div className="col-md-12 mt-3">
-                                        <div className="content-section text-left p-4">
+                                        <div className="content-section text-left p-4 fixPad">
                                             <div className="option_form_div">
                                                 <div className="">
                                                     <span className="mx-2 token_title_text">To : </span>
@@ -77,7 +77,7 @@ const Add_Governance=()=>{
                                     </div>
 
                                     <div className="col-md-12 mt-3">
-                                        <div className="content-section">
+                                        <div className="content-section fixPad">
                                             <div className="d-flex align-items-center">
                                                 <div className="option_selector_div">
                                                     <div className="d-flex align-items-center">

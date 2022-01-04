@@ -294,6 +294,11 @@ div#dashboardPg .exchangePg .card_dark_btn_link{
 .exchangePg .title_div.d-flex h2.title_div_heading{
     margin: 0;
 }
+@media (min-width: 992px){
+    .tip_tag + p {
+        line-height: 28px;
+    }
+}
 
 
 @media only screen and (max-width: 1023px){
@@ -314,8 +319,17 @@ section.ant-layout.site-layout {
     padding-right: 0;
 }
 }
+@media (min-width:992px){
+    .addLiq .card_dark_btn_div {
+        margin-top: 20px;
+        bottom: -15px;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+}
 @media (min-width:768px){
-    .addLiq .card_dark_btn_div , .card_dark_btn_div {
+    .card_dark_btn_div {
         margin-top: 20px;
         bottom: -15px;
         position: absolute;
@@ -372,6 +386,67 @@ section.ant-layout.site-layout {
         padding: 20px;
     }
 
+}
+
+
+@media (min-width:992px) and (max-width: 1540px){
+    .right_main_section.exchangePg .col-md-8 {
+        flex: 0 0 56.666667%;
+        max-width: 56.666667%;
+    }
+    .right_main_section.exchangePg .col-md-4 {
+        flex: 0 0 43.33333%;
+        max-width: 43.33333%;
+    }
+    
+    .price_main_div h3{
+        font-size: 18px;
+    }
+    .price_main_div p {
+        font-size: 16px;
+    }
+    .price_main_div span {
+        font-size: 16px !important;
+    }
+
+    .proposals-list-div .heading_h2 a {
+        font-size: 15px;
+    }
+
+    .proposals-list-div .proposals_main_p {
+        font-size: 12.7px;
+    }
+    .proposals-list-div-bottom p{
+        font-size: 12px;
+    }
+}
+@media (max-width: 1440px){
+    .price_main_div p{
+        font-size: 14px;
+    }
+    .option_selector_div span{
+        font-size: 15px;
+    }
+    .price_main_div h2{
+        font-size: 45px;
+    }
+    .price_main_div p , .price_main_div span{
+        font-size: 14px;
+    }
+    .exh-form-control , .exchangePg .wallet .exh-form-control{
+        font-size: 18px !important;
+    }
+    .label{
+        font-size: 12px;
+    }
+}
+@media (min-width:992px) and (max-width: 1320px){
+    .price_main_div p {
+        font-size: 13px;
+    }
+    .price_main_div span {
+        font-size: 13px !important;
+    }
 }
 @media (max-width: 991px){
     .right_main_section.exchangePg .col-md-8 , .right_main_section.exchangePg .col-md-4{
@@ -431,65 +506,10 @@ section.ant-layout.site-layout {
     .option_selector_div span{
         font-size: 13px;
     }
-    
-}
-
-@media (min-width:992px) and (max-width: 1540px){
-    .right_main_section.exchangePg .col-md-8 {
-        flex: 0 0 56.666667%;
-        max-width: 56.666667%;
-    }
-    .right_main_section.exchangePg .col-md-4 {
-        flex: 0 0 43.33333%;
-        max-width: 43.33333%;
-    }
-    
-    .price_main_div h3{
-        font-size: 18px;
-    }
-    .price_main_div p {
-        font-size: 16px;
-    }
-    .price_main_div span {
-        font-size: 16px !important;
-    }
-
-    .proposals-list-div .heading_h2 a {
-        font-size: 15px;
-    }
-
-    .proposals-list-div .proposals_main_p {
-        font-size: 12.7px;
-    }
-    .proposals-list-div-bottom p{
+    .option_selector_div span {
         font-size: 12px;
     }
-}
-@media (max-width: 1440px){
-    .price_main_div p{
-        font-size: 14px;
-    }
-    .option_selector_div span{
-        font-size: 15px;
-    }
-    .price_main_div h2{
-        font-size: 45px;
-    }
-    .price_main_div p , .price_main_div span{
-        font-size: 14px;
-    }
-    .exh-form-control , .exchangePg .wallet .exh-form-control{
-        font-size: 18px !important;
-    }
-    .label{
-        font-size: 12px;
-    }
-}
-@media (min-width:992px) and (max-width: 1320px){
-    .price_main_div p {
-        font-size: 13px;
-    }
-    .price_main_div span {
-        font-size: 13px !important;
+    .dropdown button img {
+        max-width: 19px;
     }
 }

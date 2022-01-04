@@ -4,48 +4,23 @@ import BSC_logo from '../../assets/images/iconBsc.png';
 import HSC_logo from '../../assets/images/iconHsc.png';
 import Dropdown_arror from '../../assets/images/Vector 1.png';
 import '../../assets/css/exchange.css';
-import Chart from 'chart.js/auto/auto';
+
+import Timeclock from './img/time-clock.png';
+import Ranking from './img/ranking.png';
+import TopRight from './img/frame-s-top-right.png';
+
+import TradeViewChart from "react-crypto-chart";
+
+
+import './chart.css';
+
 
 const Exchange = () => {
+
     useEffect(() => {
         document.body.className = 'exchange-page';
         return () => { document.body.className = ''; }
       });
-      
-    useEffect(()=>{
-        const chartRef = createRef();
-        const ctx = document.getElementById('floatbar').getContext('2d');
-        const myChart = new Chart(ctx, {
-            type: 'bar',
-            data:{
-                labels:[1,2, 3, 4, 5, 6, 7 ,8 ,9, 10, 11],
-                datasets:[
-                    {
-                        label:'candles sell',
-                        data:[[-3, 5], [2,10],[2, 3], [4, 8], [3, 5], [7, 9], [-4, 6], [5, 9], [-6, 9], [-2, 3], [-1, 1]],
-                        backgroundColor:'#FF7A68'
-                    },
-                    {
-                        label:'candels buy',
-                        data:[[-1, 2], [4,10],[3, 4], [6, 8], [2, 9], [3, 6], [-2, 5], [7, 8], [-9, 1], [-1, 2], [-5, -2]],
-                        backgroundColor:'#3DBAA2'
-                    }
-                ]
-            },
-            options: {
-                responsive: true,
-                legend: {
-                    position: 'top',
-                },
-                title: {
-                    display: true,
-                    text: 'Chart.js Floatbar Chart'
-                }
-            }
-        });
-
-    },[]);
-
 
     const [to,setTo] = useState({
         name:"BSC",
@@ -56,6 +31,41 @@ const Exchange = () => {
         icon:HSC_logo
     });
 
+
+
+    // ChartSetting;
+    let candleStickConfigUpdate={
+        upColor: "#3dbaa2",
+        downColor: "#ff7a68",
+        borderDownColor: "#ff7a68",
+        borderUpColor: "#3dbaa2",
+        wickDownColor: "#25645d",
+        wickUpColor: "#25645d",
+    }
+    let layoutUpdate = {
+        layout: {
+            backgroundColor: "#0b0d11",
+            textColor: "white",
+        },
+        grid: {
+            vertLines: {
+                color: "#0b0d11",
+            },
+            horzLines: {
+                color: "#0b0d11",
+            },
+        },
+        priceScale: {
+            borderColor: "black",
+        },
+        timeScale: {
+            borderColor: "black",
+            timeVisible: true,
+            secondsVisible: true,
+        },
+    }
+    // ChartSetting;
+
     return (
         <>
             <div className="right_main_section exchangePg">
@@ -63,11 +73,89 @@ const Exchange = () => {
                     <div className="row">
                         <div className="col-md-8 mb-3">
                             <div>
-                                <canvas className="card_dark pt-3" style={{ 'height':'600px'}}
-                                        id="floatbar"
-                                    // ref={chartRef}
-                                    //
-                                />
+                                <div className="main_graph_div">
+                                    <div>
+                                        <div className="top_nav_div">
+                                            <div className="row mt-4">
+                                                <div className="col-md-6 col-lg-12 col-xl-6">
+                                                    <ul className="top_nav_bar_list">
+                                                        <li>
+                                                            <a className="active">
+                                                                Price Chart
+                                                            </a>
+                                                        </li>
+
+                                                        <li>
+                                                            <a>
+                                                                Deep Chart
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div className="col-md-6 col-lg-12 col-xl-6">
+                                                    <ul className="nav_icon_list">
+                                                        <li>
+                                                            <img src={Timeclock} />
+                                                            <span>30m</span>
+                                                        </li>
+
+                                                        <li>
+                                                            <img src={Ranking} />
+                                                            <span>Indicator</span>
+                                                        </li>
+
+                                                        <li className="text-right top_right-btn">
+                                                            <img className="open_image_btn" src={TopRight} />
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="top_bar_list">
+                                            <ul className="num_list_data">
+                                                <li>
+                                                    <a>BTC/USDT</a>
+                                                </li>
+
+                                                <li>
+                                                    <a>
+                                                        O
+                                                        <span>18432.3204898</span>
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a>
+                                                        H
+                                                        <span>18432.3204898</span>
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a>
+                                                        L
+                                                        <span>18432.3204898</span>
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a>
+                                                        C
+                                                        <span>18432.3204898</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div></div>
+                                        <div>
+                                            <div className="">
+                                                <TradeViewChart  candleStickConfig={candleStickConfigUpdate} chartLayout={layoutUpdate} pair="BTCBUSD" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className="col-md-4">

@@ -131,7 +131,7 @@ body.lottery-page .ant-layout.ant-layout-has-sider{
   object-fit: contain;
 }
 .mtm4{
-  margin-top: -5px;
+  margin-top: -3px;
 }
 .dividerHr {
   margin: 25px 0;
@@ -526,7 +526,7 @@ body h3 {
   text-align: left;
 }
 .proposals-list-div .proposals-list-div-border{
-  border-bottom: 2px dashed #8B8B8B;
+  border-bottom: 1px dashed #8B8B8B;
   padding-bottom: 20px;
   display: flex;
   justify-content: space-between;
@@ -556,15 +556,16 @@ body h3 {
   letter-spacing: 0.12px;
   text-align: left;
 }
-.proposals-list-div .btn-execute {
+.proposals-list-div .btn-execute, .proposals-list-div .btn-defeated:hover {
   background-color: #3dd598;
   border: none !important;
   font-size: 12.6px;
   padding: 8px 18px;
   font-family: poppinssemibold;
   border-radius: 7px;
+  transition: all 300ms ease;
 }
-.proposals-list-div .btn-defeated {
+.proposals-list-div .btn-defeated , .proposals-list-div .btn-execute:hover{
   background-color: #ff5935;
   border: none !important;
   font-size: 12.6px;
@@ -573,6 +574,7 @@ body h3 {
   font-weight: 600;
   border-radius: 7px;
   color: white;
+  transition: all 300ms ease;
 }
 .proposals-list-div .btn-share {
   background: none !important;
@@ -650,6 +652,18 @@ body h3 {
 }
 .proposal_div .content-section{
   background-color: #232937 !important;
+}
+.fixPad.content-section{
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
+.fixPad .option_selector_div .mx-2 {
+  margin-left: 0 !important;
+  align-items: center;
+  display: flex;
+}
+.fixPad .option_selector_div {
+  min-width: 113px;
 }
 .btn-submit{
   padding: 7px 36px !important;
@@ -757,6 +771,23 @@ body h3 {
 }
 .p-gray{
  color: #CECECE;
+}
+.sepratBx{
+  padding-bottom: 25px;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed #888;
+}
+.sepratBx:last-child{
+  margin-bottom: 0;
+  border: 0;
+  padding-bottom: 0;
+}
+
+.sepratBx p:last-child{
+  margin-bottom: 0;
+}
+.sepratBx .sub-heading{
+  margin-top: 0;
 }
 
 .progress-img{
@@ -928,6 +959,9 @@ div#dashboardPg {
   .mt-4 h2.section_heading + p {
     padding-top: 0;
 }
+.sub-heading{
+  font-size: 15px;
+}
 }
 @media (max-width:991px){
   .content-section-p {
@@ -941,7 +975,10 @@ div#dashboardPg {
     font-size: 14px;
   }
   .section_heading {
-    font-size: 17px !important;
+    font-size: 16px !important;
+}
+.sub-heading{
+  font-size: 14px;
 }
 }
 
@@ -949,9 +986,9 @@ div#dashboardPg {
   color: #D5D5DC !important;
 }
 @media only screen and (max-width: 768px){
-  .proposals-list-div .heading_h2{
+  /* .proposals-list-div .heading_h2{
     font-size: 20px;
-  }
+  } */
   .w-75{
     width: 100% !important;
   }  

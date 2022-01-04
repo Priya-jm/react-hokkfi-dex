@@ -339,9 +339,7 @@ aside li.ant-menu-item a> span {
 aside li.ant-menu-item a:hover > span {
     color: rgba(255, 255, 255 , 0.7);
 }
-.ant-layout-sider-collapsed span.ant-menu-title-content {
-    display: none !important;
-}
+
 .ant-layout-sider-collapsed .ant-menu-item{
     display: flex;
     align-items: center;
@@ -481,7 +479,7 @@ body.exchange-page aside#mobile_side_bar {
     .headedrop.dropdown {
         position: absolute;
         right: 0px;
-        top: 12px;
+        top: 8px;
     }
     .header .headDpdn.dropdown {
         display: none;
@@ -514,7 +512,7 @@ body.exchange-page aside#mobile_side_bar {
     .dropMenu .anticon-more.moreBtn{
         position: absolute;
         left: 0;
-        top: 12px
+        top: 8px
     }
     .dropMenu .anticon-more.moreBtn{
         left: auto;
@@ -557,5 +555,27 @@ body.exchange-page aside#mobile_side_bar {
     }  
     .ant-menu-inline.ant-menu-root .ant-menu-item{
         margin: 0 !important;
+    }
+    aside .dropdown span.ant-select-selection-item img,
+    .ant-select-item-option-content img {
+  max-height: 24px;
+}
+#dashboardPg aside  .ant-select.ant-select-single .ant-select-selector {
+  padding: 2px 8px!important;
+}
+#dashboardPg aside  .dropdown span.ant-select-arrow > span svg {
+    display: none !important;
+}
+#dashboardPg aside  .dropdown span.ant-select-arrow > span{
+    background: url(../images/Vector\ 1.png) no-repeat center center;
+    background-size: 12px auto;
+    height: 13px;
+    width: 12px;
+}
+}
+
+@media (min-height: 900px){
+    .sideBarMenu, .ant-layout-sider{
+        height: auto !important;
     }
 }
