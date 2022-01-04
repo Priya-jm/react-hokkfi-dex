@@ -86,7 +86,7 @@ const Sidemenu = () => {
                                         <Link to="/exchange"><span>Exchange</span></Link>
                                     </Menu.Item>
                                     <Menu.Item key="2" icon={<img src={iconmoney} alt="iconmoney" />}>
-                                        <Link to="/liquiditiy"><span>Liquiditiy</span></Link>
+                                        <Link to="/liquiditiy"><span>Liquidity</span></Link>
                                     </Menu.Item>
                                     <Menu.Item key="3" icon={<img src={icongrowth} alt="icongrowth" />}>
                                         <Link to="/farms"><span>Farms</span></Link>

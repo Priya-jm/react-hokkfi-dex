@@ -994,9 +994,6 @@ div#dashboardPg {
   letter-spacing: 0.1px;
   text-align: left;
 }
-.price_main_div p span{
-  font-size: 20px;
-}
 @media (max-width: 767px){
   .mg-right{
     margin-left: auto !important;

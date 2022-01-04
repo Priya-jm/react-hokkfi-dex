@@ -182,10 +182,10 @@
     color: white;
     border: none !important;
 }
-.wallet button.card_dark_btnk{
-    background-color: #3050d1;
-    color: white;
+div#dashboardPg .exchangePg .card_dark_btn_link{
+    background-color: #4C6FFF !important;
     font-size: 14.79px;
+    line-height: 14.8px;
 }
 .dropdown-menu-div button{
     display: block;
@@ -209,6 +209,7 @@
     font-weight: 500;
     margin-top: 70px;
     line-height: 1;
+    margin-bottom: 40px;
 }
 .price_main_div .col{
     text-align: center;
@@ -294,14 +295,7 @@
     margin: 0;
 }
 
-@media (max-width: 1440px){
-    .price_main_div p{
-        font-size: 16px;
-    }
-    .option_selector_div span{
-        font-size: 15px;
-    }
-}
+
 @media only screen and (max-width: 1023px){
 section.ant-layout.site-layout {
     margin-left: 0px;
@@ -337,21 +331,11 @@ section.ant-layout.site-layout {
 }
 @media (max-width:991px){
     .price_main_div h3{
-        font-size: 20px;
-        line-height: 25px;
+        font-size: 16px;
+        line-height: 22px;
         font-family: interMedium;
     }
-    .price_main_div p{
-        font-size: 20px;
-    }
-    .price_main_div h2{
-        font-size: 55px;
-        line-height: 55.4px;
-    }
-    .price_main_div h3{
-        margin-top: 50px;
-        margin-bottom: 40px;
-    }
+
 }
 @media only screen and (max-width: 768px){
     .right_main_section{
@@ -397,6 +381,9 @@ section.ant-layout.site-layout {
     .price_main_div .col {
         width: 50%;
         flex: 1;
+    }
+    .price_main_div h2 {
+        font-size: 35px;
     }
 }
 @media (max-width:767px){
@@ -444,6 +431,7 @@ section.ant-layout.site-layout {
     .option_selector_div span{
         font-size: 13px;
     }
+    
 }
 
 @media (min-width:992px) and (max-width: 1540px){
@@ -474,6 +462,26 @@ section.ant-layout.site-layout {
         font-size: 12.7px;
     }
     .proposals-list-div-bottom p{
+        font-size: 12px;
+    }
+}
+@media (max-width: 1440px){
+    .price_main_div p{
+        font-size: 14px;
+    }
+    .option_selector_div span{
+        font-size: 15px;
+    }
+    .price_main_div h2{
+        font-size: 45px;
+    }
+    .price_main_div p , .price_main_div span{
+        font-size: 14px;
+    }
+    .exh-form-control , .exchangePg .wallet .exh-form-control{
+        font-size: 18px !important;
+    }
+    .label{
         font-size: 12px;
     }
 }
