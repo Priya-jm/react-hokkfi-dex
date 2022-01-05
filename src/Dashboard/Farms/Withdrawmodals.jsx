@@ -42,7 +42,7 @@ const Withdrawmodals = () => {
                       liquidity is removed from the mining pool</p>
 
                       <div className='textCenter mt15'>
-                        <button onClick={Claimwithdraw} className='btnMain x-large-btn widthFull'>Withdrwa & Claim</button>
+                        <button onClick={Claimwithdraw} className='btnMain x-large-btn widthFull'>Withdraw & Claim</button>
                     </div>
                     </div>
                     </div>

@@ -245,6 +245,9 @@ li.ant-menu-item-selected .ant-menu-title-content span:after{
 body .ant-layout-sider-collapsed .logoutBtn svg{
     margin-right: 0;;
 }
+.header .ant-select-arrow{
+    color: #000 !important;
+}
 .logoutWrap {
     position: absolute;
     bottom: 0;
@@ -372,6 +375,54 @@ body.exchange-page aside#mobile_side_bar {
       span.anticon.anticon-menu.mob_menu_icon {
         display: none;
     }
+    body.lottery-page .header {
+        background: transparent;
+        position: absolute;
+        width: 100%;
+        z-index: 55;
+    }
+    body.lottery-page .mainLogo{
+        display: none;
+    }
+    body.lottery-page .ant-layout-sider-has-trigger {
+        position: absolute !important;
+        top: 15px;
+        left: 20px;
+        height: auto;
+        z-index: 999;
+    }
+    .section1Lotry.padSec {
+        padding-top: 120px;
+    }
+    main.ant-layout-content.content .pl-200 {
+        padding-left: 210px;
+        padding-right: 0;
+    }
+}
+@media (min-width:1441px){
+    main.ant-layout-content.content .pl-200 {
+        padding-left: 210px;
+        padding-right: 50px;
+    }
+}
+@media (min-width:1680px){
+    body.lottery-page .ant-layout-sider-has-trigger {
+        left: calc(20% - 200px);
+    }
+    main.ant-layout-content.content .pl-200 {
+        padding-left: 20%;
+        padding-right: 100px;
+    }
+    
+}
+@media (min-width:1920px){
+    body.lottery-page .ant-layout-sider-has-trigger {
+        left: calc(24% - 200px);
+    }
+    main.ant-layout-content.content .pl-200{
+        padding-left: 20%;
+        padding-right: 100px;
+    }
 }
 @media (max-width:1440px){
     .menuList > li > a, .ant-layout .ant-menu > li,
@@ -463,9 +514,6 @@ body.exchange-page aside#mobile_side_bar {
     } 
     .logoutWrap {
         justify-content: left;
-    }
-    body.lottery-page  span.anticon.anticon-menu.mob_menu_icon{
-        display: none;
     }
 }
 @media (max-width: 767px) {
@@ -572,6 +620,7 @@ body.exchange-page aside#mobile_side_bar {
     height: 13px;
     width: 12px;
 }
+
 }
 
 @media (min-height: 900px){

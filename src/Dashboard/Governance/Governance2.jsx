@@ -19,7 +19,7 @@ const Governance2=()=>{
                                     </div>
                                     </div>
                                     <div className="d-md-none">
-                                    <div className="d-flex align-items-center mb-4 widthFull ">
+                                    <div className="d-flex align-items-center mb-2 widthFull ">
                                         <h2 className='mb-0 top_heading'>Add Liquidity</h2>
                                     </div>   
                                     </div>

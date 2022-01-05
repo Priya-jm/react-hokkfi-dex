@@ -475,7 +475,7 @@ section.ant-layout.site-layout {
         padding-right: 0;
       }
       .form-div .option_selector_div .dropdown.d-flex {
-        margin-left: 18px;
+        margin-left: 0;
       }
       .exchangePg .form-div .option_selector_div .dropdown.d-flex {
         margin-left: 5px;

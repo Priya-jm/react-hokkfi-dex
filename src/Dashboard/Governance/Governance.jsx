@@ -6,7 +6,7 @@ import ic_Share from '../../assets/icons/ic_Share.png';
 const Governance = () => {
     return (
         <>
-            <div className="right_main_section">
+            <div className="right_main_section governance">
                 <div>
                     <div className="row">
                         <div className="col-md-12">

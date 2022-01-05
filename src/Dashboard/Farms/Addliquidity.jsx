@@ -4,6 +4,7 @@ import '../../assets/css/addliquidity.css';
 import Dropdown_arror from '../../assets/icons/Vector 1.png';
 import BSC_logo from '../../assets/images/iconBsc.png';
 import HSC_logo from '../../assets/images/iconHsc.png';
+import settings from "../../assets/images/settings.png";
 
 
 const Addliquidity = () => {
@@ -22,7 +23,7 @@ const Addliquidity = () => {
                 <div className="card_dark">
                 <div className="row mb-2">
                     <div className="col-12 col-md-12">
-                        <h3 className="section_heading">Add Liquidity</h3>
+                        <h3 className="section_heading d-flex align-items-center">Add Liquidity <span className='ml-auto'><img src={settings} alt='setting Icon' /></span></h3>
                     </div>
                 </div>
 
@@ -106,6 +107,9 @@ const Addliquidity = () => {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div className="mt-2 mb-2 text-center d-md-none">
+                            
                         </div>
                         <div className="cardIn">
                             <div className="price-sec">

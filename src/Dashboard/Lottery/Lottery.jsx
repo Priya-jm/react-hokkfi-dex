@@ -43,7 +43,7 @@ const Lottery = () => {
   });
   return (
     <>
-      <div class="lottrySec">
+      <div class="lottrySec pl-200">
         <div class="container  whtClr poppinsFont">
           <div class="section1Lotry padSec">
             <div class="topSec">
@@ -59,7 +59,7 @@ const Lottery = () => {
       </div>
       <></>
       <div className="whtClr poppinsFont">
-        <div className="decoArrow">
+        <div className="decoArrow pl-200">
           <div className="borderLine padSec  container" >
             <img src={iconMony} alt="star icon" className="iconCOin" />
             <div className="NexDraw">
@@ -87,7 +87,7 @@ const Lottery = () => {
                           <div className="radiusBx bglightBlue">
                             <h4 className='whtClr text-center'>Match the winning number in the same order to share prizes. Current prizes up for grabs:</h4>
                             <div className='row toggleBx'>
-                              <div className='col-lg-4 col-md-6'>
+                              <div className='col-xl-4 col-lg-6 col-md-6'>
                                 <div className='tabBox bgBlack d-flex'>
                                   <div className='titlesm d-flex'>
                                     <img src={IconPrice} alt="price" />
@@ -96,7 +96,7 @@ const Lottery = () => {
                                   <span className='mg-l-auto priceSm'>~$4,641</span>
                                 </div>
                               </div>
-                              <div className='col-lg-4 col-md-6'>
+                              <div className='col-xl-4 col-lg-6 col-md-6'>
                                 <div className='tabBox bgBlack d-flex'>
                                   <div className='titlesm d-flex'>
                                     <img src={IconPrice} alt="price" />
@@ -105,7 +105,7 @@ const Lottery = () => {
                                   <span className='mg-l-auto priceSm'>~$4,641</span>
                                 </div>
                               </div>
-                              <div className='col-lg-4 col-md-6'>
+                              <div className='col-xl-4 col-lg-6 col-md-6'>
                                 <div className='tabBox bgBlack d-flex'>
                                   <div className='titlesm d-flex'>
                                     <img src={IconPrice} alt="price" />
@@ -114,7 +114,7 @@ const Lottery = () => {
                                   <span className='mg-l-auto priceSm'>~$4,641</span>
                                 </div>
                               </div>
-                              <div className='col-lg-4 col-md-6'>
+                              <div className='col-xl-4 col-lg-6 col-md-6'>
                                 <div className='tabBox bgBlack d-flex'>
                                   <div className='titlesm d-flex'>
                                     <img src={IconPrice} alt="price" />
@@ -123,7 +123,7 @@ const Lottery = () => {
                                   <span className='mg-l-auto priceSm'>~$4,641</span>
                                 </div>
                               </div>
-                              <div className='col-lg-4 col-md-6'>
+                              <div className='col-xl-4 col-lg-6 col-md-6'>
                                 <div className='tabBox bgBlack d-flex'>
                                   <div className='titlesm d-flex'>
                                     <img src={IconPrice} alt="price" />
@@ -132,7 +132,7 @@ const Lottery = () => {
                                   <span className='mg-l-auto priceSm'>~$4,641</span>
                                 </div>
                               </div>
-                              <div className='col-lg-4 col-md-6'>
+                              <div className='col-xl-4 col-lg-6 col-md-6'>
                                 <div className='tabBox bgBlack d-flex'>
                                   <div className='titlesm d-flex'>
                                     <img src={IconPrice} alt="price" />
@@ -141,7 +141,7 @@ const Lottery = () => {
                                   <span className='mg-l-auto priceSm'>~$4,641</span>
                                 </div>
                               </div>
-                              <div className='col-lg-4 col-md-6'>
+                              <div className='col-xl-4 col-lg-6 col-md-6'>
                                 <div className='tabBox bgBlack d-flex'>
                                   <div className='titlesm d-flex'>
                                     <img src={IconPrice} alt="price" />
@@ -150,7 +150,7 @@ const Lottery = () => {
                                   <span className='mg-l-auto priceSm'>~$4,641</span>
                                 </div>
                               </div>
-                              <div className='col-lg-4 col-md-6'>
+                              <div className='col-xl-4 col-lg-6 col-md-6'>
                                 <div className='tabBox bgBlack d-flex'>
                                   <div className='titlesm d-flex'>
                                     <img src={IconPrice} alt="price" />
@@ -159,7 +159,7 @@ const Lottery = () => {
                                   <span className='mg-l-auto priceSm'>~$4,641</span>
                                 </div>
                               </div>
-                              <div className='col-lg-4 col-md-6'>
+                              <div className='col-xl-4 col-lg-6 col-md-6'>
                                 <div className='tabBox bgBlack d-flex'>
                                   <div className='titlesm d-flex'>
                                     <img src={IconPrice} alt="price" />
@@ -182,7 +182,7 @@ const Lottery = () => {
             </div>
           </div>
         </div>
-        <div className='connectWalet padSec'>
+        <div className='connectWalet padSec pl-200'>
           <div className='textCenter container'>
             <h3 className='gradText'>Connect your wallet
               to check if you've won</h3>
@@ -192,7 +192,7 @@ const Lottery = () => {
             <div><Connectwallet /></div>
           </div>
         </div>
-        <div className='finshRound'>
+        <div className='finshRound pl-200'>
           <div className="borderLine padSec container">
             <div className="NexDraw">
               <div className="row text-center justify-content-center">
@@ -239,7 +239,7 @@ const Lottery = () => {
 
               <div className="mt-4 bgBlack radiusBx">
                 <div className="row align-items-stretch">
-                  <div className="col-lg-3 text-center text-lg-left flexBx">
+                  <div className="col-lg-4 col-xl-3 text-center text-lg-left flexBx">
                     <div className="textwrp">
                       <h3 className="mt-1">Prize pot</h3>
                       <h2 className="gradText">~$237,451</h2>
@@ -249,10 +249,10 @@ const Lottery = () => {
                       <span>Total players this round: <span className='font25'>1315</span></span>
                     </div>
                   </div>
-                  <div className="col-lg-9">
-                    <h4 className="text-center mb-4">Match the winning number in the same order to share prizes. Current prizes up for grabs:</h4>
+                  <div className="col-lg-8 col-xl-9">
+                    <h4 className="text-lg-center mb-4">Match the winning number in the same order to share prizes. Current prizes up for grabs:</h4>
                     <div className="row gridSm">
-                      <div className="col-lg-4 col-md-6">
+                      <div className="col-xl-4 col-lg-6 col-md-4">
                         <div className="tabBox bglightBlue d-flex">
                           <div className="titlesm d-flex">
                             <img src={IconPrice} alt="price" />
@@ -267,7 +267,7 @@ const Lottery = () => {
                         </div>
                       </div>
 
-                      <div className="col-lg-4 col-md-6">
+                      <div className="col-xl-4 col-lg-6 col-md-4">
                         <div className="tabBox bglightBlue d-flex">
                           <div className="titlesm d-flex">
                             <img src={IconPrice} alt="price" />  <h3>Match first 1 <small>325 CAKE</small>
@@ -281,7 +281,7 @@ const Lottery = () => {
                         </div>
                       </div>
 
-                      <div className="col-lg-4 col-md-6">
+                      <div className="col-xl-4 col-lg-6 col-md-4">
                         <div className="tabBox bglightBlue d-flex">
                           <div className="titlesm d-flex">
                             <img src={IconPrice} alt="price" />
@@ -296,7 +296,7 @@ const Lottery = () => {
                         </div>
                       </div>
 
-                      <div className="col-lg-4 col-md-6">
+                      <div className="col-xl-4 col-lg-6 col-md-4">
                         <div className="tabBox bglightBlue d-flex">
                           <div className="titlesm d-flex">
                             <img src={IconPrice} alt="price" />  <h3>Match first 1 <small>325 CAKE</small>
@@ -310,7 +310,7 @@ const Lottery = () => {
                         </div>
                       </div>
 
-                      <div className="col-lg-4 col-md-6">
+                      <div className="col-xl-4 col-lg-6 col-md-4">
                         <div className="tabBox bglightBlue d-flex">
                           <div className="titlesm d-flex">
                             <img src={IconPrice} alt="price" />  <h3>Match first 1 <small>325 CAKE</small>
@@ -324,7 +324,7 @@ const Lottery = () => {
                         </div>
                       </div>
 
-                      <div className="col-lg-4 col-md-6">
+                      <div className="col-xl-4 col-lg-6 col-md-4">
                         <div className="tabBox bglightBlue d-flex">
                           <div className="titlesm d-flex">
                             <img src={IconPrice} alt="price" />  <h3>Match first 1 <small>325 CAKE</small>
@@ -338,7 +338,7 @@ const Lottery = () => {
                         </div>
                       </div>
 
-                      <div className="col-lg-4 col-md-6">
+                      <div className="col-xl-4 col-lg-6 col-md-4">
                         <div className="tabBox bglightBlue d-flex">
                           <div className="titlesm d-flex">
                             <img src={IconPrice} alt="price" />  <h3>Match first 1 <small>325 CAKE</small>
@@ -352,7 +352,7 @@ const Lottery = () => {
                         </div>
                       </div>
 
-                      <div className="col-lg-4 col-md-6">
+                      <div className="col-xl-4 col-lg-6 col-md-4">
                         <div className="tabBox bglightBlue d-flex">
                           <div className="titlesm d-flex">
                             <img src={IconPrice} alt="price" />  <h3>Match first 1 <small>325 CAKE</small>
@@ -366,7 +366,7 @@ const Lottery = () => {
                         </div>
                       </div>
 
-                      <div className="col-lg-4 col-md-6">
+                      <div className="col-xl-4 col-lg-6 col-md-4">
                         <div className="tabBox bglightBlue d-flex">
                           <div className="titlesm d-flex">
                             <img src={IconPrice} alt="price" />  <h3>Match first 1 <small>325 CAKE</small>
@@ -387,7 +387,7 @@ const Lottery = () => {
           </div>
         </div>
 
-        <div className='how2Play padSec text-center'>
+        <div className='how2Play padSec text-center pl-200'>
           <div className='container'>
             <div className="row justify-content-center">
               <div className="col-lg-7">
@@ -425,7 +425,7 @@ const Lottery = () => {
           </div>
         </div>
       </div>
-
+    <div className='winCrWrap pl-200'>
       <div className="padSec winngCrtra container">
         <h2 className="gradText text-center mb-5 pb-3">Winning Criteria</h2>
         <div className="row align-items-center">
@@ -447,9 +447,10 @@ const Lottery = () => {
 
         </div>
       </div>
+      </div>
 
 
-      <div className="prizeFnds padSec bgBlack whtClr poppinsFont">
+      <div className="prizeFnds padSec bgBlack whtClr pl-200 poppinsFont">
         <div className="container">
           <h2 className="gradText text-center mb-5">Prize Funds</h2>
           <h3 className="mb-3">The prizes for each lottery round come from three sources:</h3>
@@ -502,7 +503,7 @@ const Lottery = () => {
         </div>
       </div>
 
-      <div className="footer poppinsFont">
+      <div className="footer poppinsFont pl-200">
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-md-12 mb-lg-0 mb-4 text-md-left">

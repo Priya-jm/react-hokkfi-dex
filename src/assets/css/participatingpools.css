@@ -119,12 +119,15 @@
     margin-top: 10px;
 }
 @media (min-width:1441px) and (max-width:1680px){
-    .titleHead , .section_heading , .top_heading{
-        font-size: 21.74px;
+    body .titleHead , body div#dashboardPg .top_heading , .section_heading{
+        font-size: 21.74px !important;
     } 
+    .section_heading{
+        margin-bottom: 5px;
+    }
 }
-@media (min-width:1024px) and (max-width:1440px) {
-    .titleHead , .liquBox h3 , .section_heading {
+@media (min-width:811px) and (max-width:1440px) {
+    .titleHead , .liquBox h3 , .section_heading , body div#dashboardPg .top_heading {
         font-size: 18px;
     }
     .liteHead {
@@ -177,8 +180,8 @@
         font-size: 14px;
         line-height: 21.34px;
     }
-    .titleHead , .top_heading{
-        font-size: 16px !important;
+    .titleHead , body div#dashboardPg .top_heading{
+        font-size: 16px;
     } 
     .liteHead {
         font-size: 16.6401px;

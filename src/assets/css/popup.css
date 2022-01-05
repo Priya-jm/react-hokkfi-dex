@@ -9,7 +9,7 @@ body .ant-modal-content  {
     color: #fff;
     border-radius: 0;
     border: 0;
-    margin-bottom: 40px;
+    margin-bottom: 0;
 }
 body .ant-modal-content .ant-modal-close-x{
     position: absolute;
@@ -333,6 +333,23 @@ body .m-12{
     font-family: poppinssemibold;
   }
 /* end of spinner */
+@media (max-height:799px){
+    .modalBlue.modalBuy.poppinsFont.whtClr.cncleCwin {
+        margin-top: 60px;
+    }
+}
+@media (min-height:800px){
+   body .ant-modal-root .ant-modal{
+        top: 0 !important;
+        transform: none;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform-origin: unset !important;
+    }
+}
 @media (max-width:1440px){
     body .modalHeader h3{
         font-size: 20px;

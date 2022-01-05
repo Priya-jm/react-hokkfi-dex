@@ -134,13 +134,7 @@ const Buytickets = () => {
             <h3 class="gradText">Round 328</h3>
           </div>
           <div className='modalBody'>
-            <h5 className='d-flex mb-2'>
-              <span>Total cost:</span>
-              <span className='mg-l-auto'>~2.3457 CAKE</span>
-            </h5>
-            <p>Numbers are randomized, with no duplicates among your tickets. Tap a number to edit it. Availible: 0 - 9</p>
-            <button className=' borderBtn widthFull clrSmBlue mt-2'>Randomize</button>
-            <h5 className='mt-4'>Your tickets</h5>
+            <h5 className='mt-4 mb-3'>Your tickets</h5>
             <div className='ticketNmberWrap'>
               <div className='ticketNmber'>
                 <h6 className='clrWht'>#1</h6>

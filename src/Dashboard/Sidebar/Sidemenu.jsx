@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import logohokkfi from '../../assets/images/logohokkfi.png';
 import icontransfer from '../../assets/images/icon_transfer.png';
 import iconmoney from '../../assets/images/icon_money.png';
@@ -50,98 +50,88 @@ const Sidemenu = () => {
     const toggleClass = () => {
         setActive(!isActive);
     };
-    const [lottery, setlottery] = useState(false);
-    const Lotterymenu = () => {
-        setlottery(true);
-    }
-    const [width, setWidth] = useState(window.innerWidth);
-    const breakpoint = 620;
-    useEffect(() => {
-        window.addEventListener("resize", () => {
-            setWidth(window.innerWidth)
-        });
-    }, []);
+  
 
     return (
         <>
-            {width > breakpoint && lottery ? <Lottery /> :
-                <div className="wrapper" id="dashboardPg" >
-                    <Router>
-                        <Layout style={{ minHeight: '100vh' }}>
-                            {/* mobilesidebar close icon */}
-                            <Sider collapsible onCollapse={onCollapse} id="mobile_side_bar" className={isActive ? 'CloseMobileScreen  ' : 'CloseMobileScreen'}>
-                                <CloseCircleOutlined className='close_menu_icon' onClick={toggleClass} />
-                                <div className="logo">
-                                    <img src={logohokkfi} alt="logohokkfi" />
-                                    <img src={collapseLogo} alt="collapseLogo" className='collsLogo' />
-                                </div>
-                                <div className='dropdown'>
-                                    <Select defaultValue={btc} onChange={handleChange}>
-                                        <Option value={btcMn}><img src={btcMn} alt='cripto icons' /></Option>
-                                        <Option value={btc}><img src={btc} alt='cripto icons' /></Option>
-                                    </Select>
-                                </div>
-                                <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
-                                    <Menu.Item key="1" icon={<img src={icontransfer} alt="icontransfer" />}>
-                                        <Link to="/exchange"><span>Exchange</span></Link>
-                                    </Menu.Item>
-                                    <Menu.Item key="2" icon={<img src={iconmoney} alt="iconmoney" />}>
-                                        <Link to="/liquiditiy"><span>Liquidity</span></Link>
-                                    </Menu.Item>
-                                    <Menu.Item key="3" icon={<img src={icongrowth} alt="icongrowth" />}>
-                                        <Link to="/farms"><span>Farms</span></Link>
-                                    </Menu.Item>
-                                    <Menu.Item key="4" icon={<img src={iconsidney} alt="iconsidney" />}>
-                                        <Link to="/bridge"><span>Bridge</span></Link>
-                                    </Menu.Item>
-                                    <Menu.Item key="5" icon={<img src={icongambling} alt="icongambling" />}>
-                                        <Link to="/lottery" onClick={Lotterymenu}><span>Lottery</span></Link>
-                                    </Menu.Item>
-                                    <Menu.Item key="6" icon={<img src={iconmaintenance} alt="iconmaintenance" />}>
-                                        <Link to="/governance"><span>Governance</span></Link>
-                                    </Menu.Item>
-                                    <div className='logoutWrap'>
-                                        <div>
-                                            <Button className='logoutBtn'>
-                                                <ImportOutlined />
-                                                Logout
-                                            </Button>
-                                            <span className='langn'>Language</span>
-                                        </div>
-                                    </div>
-                                </Menu>
-                            </Sider>
-                            <Layout className="site-layout">
-                                <Content className="content">
+            <div className="wrapper" id="dashboardPg" >
+                <Router>
+                    <Layout style={{ minHeight: '100vh' }}>
+                        <Sider collapsible onCollapse={onCollapse} id="mobile_side_bar" className={isActive ? 'CloseMobileScreen  ' : 'CloseMobileScreen'}>
+                           <div className="inMenu">
+                           <CloseCircleOutlined className='close_menu_icon' onClick={toggleClass} />
+                            <div className="logo">
+                                <img src={logohokkfi} alt="logohokkfi" />
+                                <img src={collapseLogo} alt="collapseLogo" className='collsLogo' />
+                            </div>
+                            <div className='dropdown'>
+                                <Select defaultValue={btc} onChange={handleChange}>
+                                    <Option value={btcMn}><img src={btcMn} alt='cripto icons' /></Option>
+                                    <Option value={btc}><img src={btc} alt='cripto icons' /></Option>
+                                </Select>
+                            </div>
+                            <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
+                                <Menu.Item key="1" icon={<img src={icontransfer} alt="icontransfer" />}>
+                                    <Link to="/exchange"><span>Exchange</span></Link>
+                                </Menu.Item>
+                                <Menu.Item key="2" icon={<img src={iconmoney} alt="iconmoney" />}>
+                                    <Link to="/liquiditiy"><span>Liquidity</span></Link>
+                                </Menu.Item>
+                                <Menu.Item key="3" icon={<img src={icongrowth} alt="icongrowth" />}>
+                                    <Link to="/farms"><span>Farms</span></Link>
+                                </Menu.Item>
+                                <Menu.Item key="4" icon={<img src={iconsidney} alt="iconsidney" />}>
+                                    <Link to="/bridge"><span>Bridge</span></Link>
+                                </Menu.Item>
+                                <Menu.Item key="5" icon={<img src={icongambling} alt="icongambling" />}>
+                                    <Link to="/lottery"><span>Lottery</span></Link>
+                                </Menu.Item>
+                                <Menu.Item key="6" icon={<img src={iconmaintenance} alt="iconmaintenance" />}>
+                                    <Link to="/governance"><span>Governance</span></Link>
+                                </Menu.Item>
+                                <div className='logoutWrap'>
                                     <div>
-                                        <Switch>
-                                            <Route exact path="/" component={Exchange} />
-                                            <Route exact path="/exchange" component={Exchange} />
-                                            <Route exact path="/liquiditiy" component={Liquiditiy} />
-                                            {/* farms and subcomponents */}
-                                            <Route exact path="/farms/addliquidity" component={Addliquidity} />
-                                            <Route exact path="/farms" component={Participatingpools} />
-                                            <Route exact path="/farms/treats" component={Treats} />
-                                            <Route exact path="/farms/treatsliquidity" component={Treatsethliquidity} />
-                                            <Route exact path="/farms/treatsethmining" component={Treatsethliquiditymining} />
-                                            {/* farms and subcomponents */}
-                                            {/*New Page Route*/}
-                                            <Route exact path="/liquiditiy/add_liquiditiy" component={Add_Liquidity} />
-                                            <Route exact path="/governance/add_governance" component={Add_Governance} />
-                                            <Route exact path="/governance_view" component={Governance2} />
-                                            <Route exact path="/add_Keypair" component={Add_Keypair} />
-                                            {/*New Page Route*/}
-                                            <Route exact path="/bridge" component={Bridge} />
-                                            <Route exact path="/lottery" component={Lottery} />
-                                            <Route exact path="/governance" component={Governance} />
-                                        </Switch>
+                                        <Button className='logoutBtn'>
+                                            <ImportOutlined />
+                                            Logout
+                                        </Button>
+                                        <span className='langn'>Language</span>
                                     </div>
-                                </Content>
-                            </Layout>
+                                </div>
+                            </Menu>
+                           </div>
+
+                        </Sider>
+                        <Layout className="site-layout">
+                            <Content className="content">
+                                <div>
+                                    <Switch>
+                                        <Route exact path="/" component={Exchange} />
+                                        <Route exact path="/exchange" component={Exchange} />
+                                        <Route exact path="/liquiditiy" component={Liquiditiy} />
+                                        {/* farms and subcomponents */}
+                                        <Route exact path="/farms/addliquidity" component={Addliquidity} />
+                                        <Route exact path="/farms" component={Participatingpools} />
+                                        <Route exact path="/farms/treats" component={Treats} />
+                                        <Route exact path="/farms/treatsliquidity" component={Treatsethliquidity} />
+                                        <Route exact path="/farms/treatsethmining" component={Treatsethliquiditymining} />
+                                        {/* farms and subcomponents */}
+                                        {/*New Page Route*/}
+                                        <Route exact path="/liquiditiy/add_liquiditiy" component={Add_Liquidity} />
+                                        <Route exact path="/governance/add_governance" component={Add_Governance} />
+                                        <Route exact path="/governance_view" component={Governance2} />
+                                        <Route exact path="/add_Keypair" component={Add_Keypair} />
+                                        {/*New Page Route*/}
+                                        <Route exact path="/bridge" component={Bridge} />
+                                        <Route exact path="/lottery" component={Lottery} />
+                                        <Route exact path="/governance" component={Governance} />
+                                    </Switch>
+                                </div>
+                            </Content>
                         </Layout>
-                    </Router>
-                </div>
-            }
+                    </Layout>
+                </Router>
+            </div>
         </>
     );
 };
